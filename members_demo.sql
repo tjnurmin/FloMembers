@@ -1,3 +1,8 @@
+-- 
+-- Flo Members db dump
+-- 
+
+-- --------------------------------------------------------
 
 -- 
 -- Table structure for table `accounts`
@@ -249,6 +254,17 @@ CREATE TABLE `event_registrations` (
   KEY `link_member` (`link_member`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
+
+-- 
+-- Table structure for table `extra_invoice_options`
+-- 
+
+DROP TABLE IF EXISTS `extra_invoice_options`;
+CREATE TABLE `extra_invoice_options` (
+`id` SMALLINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`name` TINYTEXT NOT NULL ,
+`value` TINYINT NOT NULL
+) ENGINE = MYISAM ;
 
 -- 
 -- Table structure for table `form_options`
@@ -961,7 +977,7 @@ CREATE TABLE `tblusers` (
 -- Dumping data for table `tblusers`
 -- 
 
-INSERT INTO `tblusers` VALUES (1, 'Helsinki Example FC', 'demo', 'info@floapps.info', NULL, NULL, NULL, 'xxx', 1, '2006-12-06 00:00:00', 1, 'Esimerkkitie 8', '00100', 'HELSINKI', NULL, NULL, 'Nordea 123456-7890', NULL, "http://yle.fi/uutiset/rss/kotimaa.rss", NULL, NULL, NULL);
+INSERT INTO `tblusers` VALUES (1, 'Helsinki Example FC', 'demo', 'info@tietokannat.info', NULL, NULL, NULL, '---', 1, '2006-12-06 00:00:00', 1, 'Esimerkkitie 8', '00100', 'HELSINKI', NULL, NULL, 'Nordea 123456-7890', NULL, "http://yle.fi/uutiset/rss/kotimaa.rss", NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
