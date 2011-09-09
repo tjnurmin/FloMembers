@@ -290,6 +290,7 @@ CREATE TABLE `form_options` (
   `is_sex_field_mandatory` tinyint(1) unsigned NOT NULL default '0',
   `is_phone_field_mandatory` tinyint(1) unsigned NOT NULL default '0',
   `payment_schedule` tinyint(1) unsigned NOT NULL default '2',
+  `link_account` tinyint(3) unsigned default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
