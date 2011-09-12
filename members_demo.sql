@@ -263,7 +263,7 @@ DROP TABLE IF EXISTS `extra_invoice_options`;
 CREATE TABLE `extra_invoice_options` (
 `id` SMALLINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
 `name` TINYTEXT NOT NULL ,
-`value` TINYINT NOT NULL
+`value` decimal(10,2) NOT NULL
 ) ENGINE = MYISAM ;
 
 -- 
