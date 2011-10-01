@@ -382,7 +382,7 @@ CREATE TABLE IF NOT EXISTS `invoicerows` (
   `link_subscriber` smallint(6) unsigned default NULL,
   PRIMARY KEY  (`id`),
   KEY `link_invoice` (`link_invoice`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `invoicerows`
@@ -428,7 +428,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
   KEY `link_member` (`link_member`),
   KEY `link_log` (`link_log`),
   KEY `link_subscriber` (`link_subscriber`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `invoices`
