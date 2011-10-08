@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-10-08 17:15+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Tapio Nurminen <tapio.nurminen@tietokannat.fi>\n"
+"Last-Translator: Tapio Nurminen <tapio.nurminen@floapps.com>\n"
 "Language-Team: Flo Apps Ltd <info@floapps.fi>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -137,7 +137,7 @@ msgstr "Meddelandet har skickats"
 #: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:71
 #: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:72
 msgid "Unexpected error encountered. Message was not sent."
-msgstr ""
+msgstr "Ett oväntat fel har inträffat. Meddelandet skickades inte."
 
 #: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:89
 msgid "Message was sent to the following addresses:"
@@ -527,9 +527,8 @@ msgid "Application form"
 msgstr "Ansökningsformulär"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/admin_nav.inc.php:178
-#, fuzzy
 msgid "Standard products"
-msgstr "Lägg till produkt"
+msgstr "Standardprodukter"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/admin_nav.inc.php:179
 msgid "Users"
@@ -566,7 +565,6 @@ msgid "Change password"
 msgstr "Byt lösenord"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/addressChanges.php:6
-#, fuzzy
 msgid "This feature is available in FloMembers Premium only."
 msgstr "Denna funktion finns endast i FloMembers Premium."
 
@@ -627,17 +625,16 @@ msgid "View / Edit current data"
 msgstr "Visa / redigera aktuella data"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/addressChanges.php:74
-#, fuzzy
 msgid "Data was fetched from Itella address database"
-msgstr "Hittades inte i Itellas adressdatabas"
+msgstr "Uppgifterna hämtade i Itellas adressdatabas"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/addressChanges.php:74
 msgid "If you wish to update names that have changed, please do this manually before running the automatic update."
-msgstr ""
+msgstr "Om du vill uppdatera namn som ändrats, gör uppdateringarna manuellt innan du kör automatisk uppdatering. "
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/addressChanges.php:74
 msgid "Perform the automatic update"
-msgstr ""
+msgstr "Utför automatisk uppdatering."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/addressChanges.php:75
 msgid "Changes since last update"
@@ -652,14 +649,12 @@ msgid "No dead."
 msgstr "Inga avlidna."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/addressChanges.php:124
-#, fuzzy
 msgid "If you want to mark a person as dead, please perform"
-msgstr "Om du vill lägga till en person i en grupp i en viss roll"
+msgstr "Om du vill ändra en persons status till avliden, utför"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/addressChanges.php:124
-#, fuzzy
 msgid "a search"
-msgstr "Sökning"
+msgstr "sökning"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/addressChanges.php:144
 msgid "Not found in Itella address database"
@@ -2262,7 +2257,7 @@ msgstr "Produkter"
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/contents/admin/import_sales.php:66
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/contents/admin/new_import_sales.php:54
 msgid "File upload failed - please try again!"
-msgstr ""
+msgstr "Filöverföringen misslyckades - försök på nytt!"
 
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/contents/admin/persons.php:34
 msgid "Edit person's information"
@@ -2297,12 +2292,10 @@ msgid "person"
 msgstr "person"
 
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/contents/admin/products.php:101
-#, fuzzy
 msgid "Edit a product"
 msgstr "Redigera produkt"
 
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/contents/admin/products.php:105
-#, fuzzy
 msgid "Add a product"
 msgstr "Lägg till produkt"
 
@@ -2326,7 +2319,7 @@ msgstr "Kompositör"
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/contents/admin/products.php:269
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/thickboxes/product_rights.php:10
 msgid "Rights"
-msgstr ""
+msgstr "Rättigheter"
 
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/thickboxes/person_sales.php:18
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/thickboxes/product_sales.php:12
@@ -2923,14 +2916,12 @@ msgid "If you want to rerun year invoicing, remove existing this year's first:"
 msgstr "Om du vill göra om årsfaktureringen, radera existerande årsfakturering först:"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1069
-#, fuzzy
 msgid "Please try again."
-msgstr "försök på nytt."
+msgstr "Försök på nytt."
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1540
-#, fuzzy
 msgid "Unexpected database error."
-msgstr "Databasfel"
+msgstr "Oväntat databasfel."
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1587
 msgid "No products have been chosen &ndash; please return to edit:"
@@ -3041,7 +3032,7 @@ msgstr "Använd operatörens betalkonto"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:2076
 msgid "Delivery method"
-msgstr ""
+msgstr "Leveransmetod"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:2146
 msgid "If you want to send out a large batch of invoices via post, you can <a href=\"https://www.tietokannat.info/support/\">request an offer</a> from the service provider. We can send the invoices to our partner company who will then print and post the invoices."
@@ -3097,14 +3088,12 @@ msgstr "Du kan skriva ytterligare avgift på samma faktura, om du vill."
 #: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:155
 #: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:207
 #: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:256
-#, fuzzy
 msgid "Reference"
-msgstr "Skillnad"
+msgstr "Referens"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:39
-#, fuzzy
 msgid "Edit payment"
-msgstr "Redigera evenemanget"
+msgstr "Redigera betalning"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:75
 msgid "Change month"
