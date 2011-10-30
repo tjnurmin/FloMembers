@@ -405,6 +405,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
   `link_payer` smallint(5) unsigned NOT NULL default '0',
   `link_subscriber` smallint(5) unsigned NOT NULL default '0',
   `link_application` smallint(5) unsigned NOT NULL default '0',
+  `link_registration` smallint(5) unsigned NOT NULL default '0',
   `link_state` tinyint(3) unsigned NOT NULL default '0',
   `link_account` tinyint(3) unsigned NOT NULL default '1',
   `refnr` varchar(20) collate utf8_swedish_ci default NULL,
@@ -434,7 +435,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
 -- Dumping data for table `invoices`
 --
 
-INSERT INTO `invoices` VALUES (1, 0, 90, 0, 0, 0, 0, 1, '200900000010', '2009-03-05', NULL, NULL, NULL, '2009-02-19 19:09:59', NULL, NULL, NULL, NULL, 0, 1, 20.00, 1, 1);
+INSERT INTO `invoices` VALUES (1, 0, 90, 0, 0, 0, 0, 0, 1, '200900000010', '2009-03-05', NULL, NULL, NULL, '2009-02-19 19:09:59', NULL, NULL, NULL, NULL, 0, 1, 20.00, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -446,7 +447,7 @@ DROP TABLE IF EXISTS `invoices_log`;
 CREATE TABLE IF NOT EXISTS `invoices_log` (
   `id` smallint(5) unsigned NOT NULL auto_increment,
   `date` timestamp NOT NULL default CURRENT_TIMESTAMP,
-  `type` enum('group','members','payers','single','subscribers') collate utf8_swedish_ci NOT NULL,
+  `type` enum('event','group','members','payers','single','subscribers') collate utf8_swedish_ci NOT NULL,
   `group_name` tinytext collate utf8_swedish_ci,
   `year` smallint(5) unsigned default NULL,
   PRIMARY KEY  (`id`),
