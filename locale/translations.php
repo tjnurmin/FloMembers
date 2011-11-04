@@ -39,34 +39,6 @@ define("_URL", "URL (Internet)");
 define('_ERROR', 'Virhe / Error');
 define('_PAGENOTFOUND', 'Sivua ei löytynyt. / The page was not found.');
 
-// EGLSF (only in English; do not edit)
-define('_ADD_SPORT', 'Add sport');
-define('_BOARD', 'Board');
-define("_EXPORT_SPORTS_TO_EXCEL", "Export sports data to MS Excel");
-define('_FEE_PAYABLE', 'Membership fee payable');
-define('_FEMALE_BOARD', 'Female board members');
-define('_FEMALE_CONTACT', 'Female contact');
-define('_FEMALE_CONTACT_EMAIL', 'Female contact email');
-define('_MALE_BOARD', 'Male board members');
-define('_MALE_CONTACT', 'General contact');
-define('_MALE_CONTACT_EMAIL', 'General contact email');
-define('_MEMBERS_TOTAL', 'Total number of members');
-define('_MEMBERSHIP_ASSOCIATED', 'Associated membership');
-define('_MEMBERSHIP_EXTRAORDINARY', 'Extra-ordinary membership');
-define('_MEMBERSHIP_ORDINARY', 'Ordinary membership');
-define("_MEN_TOTAL", "Total number of male members");
-define("_NEW_ORGANISATIONS_NAME", "Organisation's name");
-define('_NO_FEMALE_CONTACT', 'We have no female contact');
-define('_NO_MALE_CONTACT', 'We have no general contact');
-define('_NO_OUTREACH_CONTACT', 'We have no outreach contact');
-define('_OUTREACH_CONTACT', 'Outreach contact');
-define('_OUTREACH_CONTACT_EMAIL', 'Outreach contact email');
-define('_SPORT', 'Sport');
-define('_SPORTS', 'Sports');
-define("_SPORTS_INFO", "Sports (Average number of sportswomen/men in sport; this info is for statistical use only)");
-define("_WOMEN_TOTAL", "Total number of female members");
-define("_WWW", "Website");
-
 // outside Shared Code - if updated, must be updated in source files, too!
 $outsideTranslations = array(
     _('Categories'),
@@ -77,16 +49,6 @@ $outsideTranslations = array(
     _('Topics'),
     _('Write here')
 );
-
-// Abbott (only in English; do not edit)
-define("_ESTIMATED_APPROVAL_TIME", "Estimated approval time");
-define("_INDICATIONS_FOUND", "Indications found");
-define("_GENERIC_NAME", "Generic name");
-define("_TRADE_NAME", "Trade name");
-define("_COMPANY", "Company");
-define("_INDICATION", "Indication");
-define("_NO_STUDY_SITES_IN_FINLAND", "No study sites in Finland");
-define("_STUDY_SITES_IN_FINLAND", "Has study sites in Finland");
 
 
 if ($lang_chosen == "fin")
