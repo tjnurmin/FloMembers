@@ -43,7 +43,7 @@ CREATE TABLE `address_changes` (
   `change` smallint(6) unsigned NOT NULL,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `unique_person` (`type`,`link_person`,`change`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
