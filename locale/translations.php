@@ -17,14 +17,115 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-	
-// TODO
+
+$GLOBALS['arrVatOptions'] = array(
+    0   => 0,
+    8   => 8,
+    9   => 9,
+    12  => 12,
+    13  => 13,
+    17  => 17,
+    22  => 22,
+    23  => 23
+);
+
 $GLOBALS['contactMethods'] = array(
     1 => "Tapaaminen",
     2 => "Email",
     3 => "Puhelin",
     4 => "WWW"
 );
+
+$GLOBALS['languages'] = array(
+    'eng' => 'English',
+    'fin' => 'suomi',
+    'sve' => 'svenska'
+);
+
+$GLOBALS['postalAreas'] = array(
+    array('Helsinki',0,10),
+    array('Oulu',90,93),
+    array('Hämeenlinna',11,14),
+    array('Lahti',15,19),
+    array('Turku',20,27),
+    array('Pori',28,29),
+    array('Forssa',30,32),
+    array('Tampere',33,39),
+    array('Jyväskylä',40,44),
+    array('Kouvola',45,47),
+    array('Kotka',48,49),
+    array('Mikkeli',50,52),
+    array('Lappeenranta',53,56),
+    array('Lappeenranta',59,59),
+    array('Savonlinna',57,58),
+    array('Seinäjoki',60,64),
+ 	array('Vaasa',65,66),
+ 	array('Kokkola',67,69),
+ 	array('Kuopio',70,75),
+ 	array('Pieksämäki',76,79),
+ 	array('Joensuu',80,83),
+ 	array('Ylivieska',84,86),
+ 	array('Kajaani',87,89),
+ 	array('Oulu',90,93),
+ 	array('Kemi',94,95),
+ 	array('Rovaniemi',96,99)
+);
+
+$GLOBALS['region_in_province'] = array(
+    1 => 6,
+    2 => 1,
+    3 => 2,
+    4 => 3,
+    5 => 1,
+    6 => 4,
+    7 => 1,
+    8 => 2,
+    9 => 2,
+    10 => 1,
+    11 => 5,
+    12 => 2,
+    13 => 2,
+    14 => 3,
+    15 => 4,
+    16 => 3,
+    17 => 1,
+    18 => 2,
+    19 => 1,
+    20 => 2
+);
+
+$GLOBALS['rssFeeds'] = array(
+    'http://hbl.fi/rss.xml'									=> 'Hbl.fi nyheter',
+	'http://www.hs.fi/uutiset/rss/'							=> 'HS.fi Uusimmat',
+	'http://www.taloussanomat.fi/rss'						=> 'Taloussanomat',
+	'http://yle.fi/uutiset/rss/kotimaa.rss'             	=> 'YLE Kotimaa',
+    'http://yle.fi/uutiset/rss/luonto_ja_ymparisto.rss' 	=> 'YLE Luonto ja ympäristö',
+	'http://yle.fi/uutiset/rss/news.rss'					=> 'YLE News in English',
+	'http://yle.fi/uutiset/rss/talous_ja_politiikka.rss'	=> 'YLE Talous ja politiikka',
+	'http://yle.fi/uutiset/rss/tiede_ja_tekniikka.rss'		=> 'YLE Tiede ja tekniikka',
+	'http://yle.fi/uutiset/rss/ulkomaat.rss'				=> 'YLE Ulkomaat',
+	
+	'http://yle.fi/alueet/rss/etela-karjala.rss'			=> 'YLE Etelä-Karjala',
+	'http://yle.fi/alueet/rss/etela-savo.rss' 				=> 'YLE Etelä-Savo',
+	'http://yle.fi/alueet/rss/hame.rss' 					=> 'YLE Häme',
+	'http://yle.fi/alueet/rss/kainuu.rss' 					=> 'YLE Kainuu',
+	'http://yle.fi/alueet/rss/keski-pohjanmaa.rss'          => 'YLE Keski-Pohjanmaa',
+	'http://yle.fi/alueet/rss/keski-suomi.rss' 			    => 'YLE Keski-Suomi',
+	'http://yle.fi/alueet/rss/kymenlaakso.rss' 			    => 'YLE Kymenlaakso',
+	'http://yle.fi/alueet/rss/lappi.rss' 					=> 'YLE Lappi',
+	'http://yle.fi/alueet/rss/meri-lappi.rss' 				=> 'YLE Meri-Lappi',
+	'http://yle.fi/alueet/rss/pirkanmaa.rss' 				=> 'YLE Pirkanmaa',
+	'http://yle.fi/alueet/rss/pohjanmaa.rss'				=> 'YLE Pohjanmaa',
+	'http://yle.fi/alueet/rss/pohjois-karjala.rss'     	    => 'YLE Pohjois-Karjala',
+	'http://yle.fi/alueet/rss/pohjois-pohjanmaa.rss' 		=> 'YLE Pohjois-Pohjanmaa',
+	'http://yle.fi/alueet/rss/pohjois-savo.rss' 			=> 'YLE Pohjois-Savo',
+	'http://yle.fi/alueet/rss/paijat-hame.rss' 			    => 'YLE Päijät-Häme',
+	'http://yle.fi/alueet/rss/paakaupunkiseutu.rss'    	    => 'YLE Pääkaupunkiseutu',
+	'http://yle.fi/alueet/rss/satakunta.rss' 				=> 'YLE Satakunta',
+	'http://yle.fi/alueet/rss/uusimaa.rss' 				    => 'YLE Uusimaa',
+	'http://yle.fi/alueet/rss/varsinais-suomi.rss' 		    => 'YLE Varsinais-Suomi'   
+);
+
 
 // shared (do not edit)
 define("_COPYRIGHT", "(c) Flo Apps Ltd 2007-".date('y'));
