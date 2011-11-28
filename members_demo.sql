@@ -436,6 +436,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
   `date` timestamp NOT NULL default CURRENT_TIMESTAMP,
   `ourreference` tinytext collate utf8_swedish_ci,
   `yourreference` tinytext collate utf8_swedish_ci,
+  `custom_reference` smallint(4) default NULL,
   `invoiceaddress` tinytext collate utf8_swedish_ci,
   `info` text collate utf8_swedish_ci,
   `is_sum_hidden` tinyint(3) unsigned NOT NULL default '0',
@@ -455,7 +456,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
 -- Dumping data for table `invoices`
 --
 
-INSERT INTO `invoices` VALUES (1, 0, 90, 0, 0, 0, 0, 0, 1, '200900000010', '2009-03-05', NULL, NULL, NULL, '2009-02-19 19:09:59', NULL, NULL, NULL, NULL, 0, 1, 20.00, 1, 1);
+INSERT INTO `invoices` VALUES (1, 0, 90, 0, 0, 0, 0, 0, 1, '200900000010', '2009-03-05', NULL, NULL, NULL, '2009-02-19 19:09:59', NULL, NULL, NULL, NULL, NULL, 0, 1, 20.00, 1, 1);
 
 -- --------------------------------------------------------
 
