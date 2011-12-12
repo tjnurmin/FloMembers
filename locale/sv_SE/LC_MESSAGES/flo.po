@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flo 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-10 23:17+0200\n"
+"POT-Creation-Date: 2011-12-12 21:47+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tapio Nurminen <tapio.nurminen@floapps.com>\n"
 "Language-Team: Flo Apps Ltd <info@floapps.fi>\n"
@@ -287,8 +287,8 @@ msgid "No"
 msgstr "Nej"
 
 #: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1243
-msgid "Record is connected to other data in database and cannot be removed. If you need more information or want to remove the record, please leave a support request."
-msgstr "Posten är kopplad till andra data i databasen och kan inte tas bort. Om du vill ha mera information eller är säker på att du vill ta bort posten, skicka en supportbegäran. "
+msgid "Record is connected to other data in the database and cannot be removed. If you need more information or want to remove the record, please leave a <a href=\"https://www.tietokannat.info/support/\">support request</a>."
+msgstr "Posten är kopplad till andra data i databasen och kan inte tas bort. Om du vill ha mera information eller är säker på att du vill ta bort posten, skicka en <a href=\"https://www.tietokannat.info/support/\">supportbegäran</a>. "
 
 #: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1268
 msgid "Empty record set."
@@ -972,7 +972,7 @@ msgstr "Mottagare"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:530
 msgid "Send mail to a single recipient"
-msgstr "Skicka meddelandet till en person"
+msgstr "Skicka meddelandet till en enda mottagare"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:538
 msgid "Send mail to all members"
@@ -1439,18 +1439,16 @@ msgid "Member type name"
 msgstr "Namn för medlemstyp"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:138
-#, fuzzy
 msgid "Send SMS"
-msgstr "Skicka"
+msgstr "Skicka SMS"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:190
 msgid "Choose recipient"
 msgstr "Välj en mottagare"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:194
-#, fuzzy
 msgid "Single recipient"
-msgstr "Töm mottagare"
+msgstr "En enda mottagare"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:202
 msgid "All members"
@@ -1461,9 +1459,8 @@ msgid "Expired subscriptions"
 msgstr "Förfallna prenumerationer"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:224
-#, fuzzy
 msgid "Event participants"
-msgstr "Max-antal deltagare"
+msgstr "Deltagare i evenemanget"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/payers.php:99
 msgid "Edit payer information"
@@ -1524,12 +1521,11 @@ msgstr "(ingen tidsbegränsning)"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/reports.php:50
 msgid "Overdue"
-msgstr ""
+msgstr "Förfallna"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/reports.php:56
-#, fuzzy
 msgid "Overdue: stickers"
-msgstr "Skapa klistermärken"
+msgstr "Klistermärken: förfallna"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/resignRequests.php:13
 msgid "No new resign requests."
@@ -2533,18 +2529,16 @@ msgid "If you want to ask questions, <a href=\"https://www.tietokannat.info/supp
 msgstr "Om du har frågor, <a href=\"https://www.tietokannat.info/support/\">skicka en supportbegäran</a>."
 
 #: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:575
-#, fuzzy
 msgid "Enrollment year"
-msgstr "Slutår"
+msgstr "Inskrivningsår"
 
 #: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:576
-#, fuzzy
 msgid "Graduated"
-msgstr "Skapad"
+msgstr "Examen"
 
 #: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:577
 msgid "Degree program"
-msgstr ""
+msgstr "Utbildningsprogram"
 
 #: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:934
 msgid "Own specialty / interests"
@@ -3109,7 +3103,7 @@ msgstr "Listan visar de 200 senaste händelserna. Om en person ännu inte har go
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1786
 msgid "If you want to delete the invoice for a single recipient in a group invoice, edit that person's data, and remove the invoice there."
-msgstr "För att radera fakturan till en enda person i en gruppfakturering, gå till denna persons uppgifter och radera fakturan där."
+msgstr "För att radera fakturan till en enda mottagare i en gruppfakturering, gå till denna persons uppgifter och radera fakturan där."
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1787
 msgid "Send reminders for current year as a batch"
@@ -3125,7 +3119,7 @@ msgstr "Påminnelse åt personer utan e-postadress"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1977
 msgid "Custom reference inset (max 4 digits)"
-msgstr ""
+msgstr "Kundanpassad initialsekvens på referensnummer (max 4 siffror)"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:2031
 msgid "Add at least one <a href=\"./?action=accounts\">bank account</a>. Please note that IBAN/BIC codes are required in invoices beginning 01 July 2010."
