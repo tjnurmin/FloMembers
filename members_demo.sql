@@ -581,6 +581,17 @@ CREATE TABLE `roles` (
 
 INSERT INTO `roles` VALUES (1, "Puheenjohtaja");
 
+-- 
+-- Table structure for table `smscount`
+-- 
+
+DROP TABLE IF EXISTS `smscount`;
+CREATE TABLE `smscount` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `sms` text collate utf8_swedish_ci NOT NULL,
+  `time` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
