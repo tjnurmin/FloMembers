@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flo 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-06 11:18+0200\n"
+"POT-Creation-Date: 2012-01-09 08:55+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tapio Nurminen <tapio.nurminen@floapps.com>\n"
 "Language-Team: Flo Apps Ltd <info@floapps.fi>\n"
@@ -1443,9 +1443,8 @@ msgid "Member type name"
 msgstr "Namn för medlemstyp"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:134
-#, fuzzy
 msgid "SMS successfully sent with the following response codes:"
-msgstr "Meddelandet har skickats till följande adresser:"
+msgstr "Meddelandet har skickats och följande svarskoder erhållits:"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:230
 msgid "Choose recipient"
@@ -1456,9 +1455,8 @@ msgid "Single recipient"
 msgstr "En enda mottagare"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:356
-#, fuzzy
 msgid "Not in demo version"
-msgstr "I demoversionen är denna procedur inte tillåten."
+msgstr "Inte i demoversionen."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/payers.php:99
 msgid "Edit payer information"
