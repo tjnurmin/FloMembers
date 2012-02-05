@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flo 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-06 11:19+0200\n"
+"POT-Creation-Date: 2012-02-06 00:25+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tapio Nurminen <tapio.nurminen@floapps.com>\n"
 "Language-Team: Flo Apps Ltd <info@floapps.com>\n"
@@ -21,9 +21,9 @@ msgstr ""
 #: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:211
 #: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:72
 #: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:73
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:739
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1268
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1504
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:743
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1283
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1519
 msgid "Error"
 msgstr "Virhe"
 
@@ -66,7 +66,7 @@ msgstr "Kortti voimassa asti"
 
 #: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:572
 #: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:573
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1341
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1356
 msgid "Search"
 msgstr "Haku"
 
@@ -228,7 +228,7 @@ msgstr "Koko"
 #: /Applications/MAMP/htdocs/shared_code/classes/FileHandler.class.php:75
 #: /Applications/MAMP/htdocs/shared_code/classes/FileHandler.class.php:101
 #: /Applications/MAMP/htdocs/shared_code/classes/FileHandler.class.php:102
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1227
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1242
 msgid "Delete"
 msgstr "Poista"
 
@@ -236,107 +236,107 @@ msgstr "Poista"
 msgid "is not a directory."
 msgstr "ei ole hakemisto."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:564
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1304
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1342
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:568
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1319
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1357
 msgid "Save"
 msgstr "Tallenna"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:571
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1233
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1250
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1305
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1372
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1382
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:575
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1248
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1265
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1320
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1387
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1397
 msgid "Go back without saving"
 msgstr "Palaa tallentamatta"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:640
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:644
 msgid "Browse"
 msgstr "Selaa"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:739
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1059
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1068
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1103
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1124
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:743
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1074
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1083
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1118
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1139
 msgid "Database error. Please try again in a moment."
 msgstr "Tietokantavirhe. Yritä hetken kuluttua uudelleen."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:779
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:783
 msgid "is mandatory."
 msgstr "on pakollinen tieto."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1207
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1222
 msgid "The system keeps the information for reporting for another year."
 msgstr "Järjestelmä säilyttää tiedot raportointia varten vielä vuoden ajan."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1211
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1226
 msgid "You are removing a record permanently"
 msgstr "Olet poistamassa tietuetta lopullisesti"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1213
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1228
 msgid "Confirm"
 msgstr "Vahvista"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1220
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1235
 msgid "Change cannot be undone. Are you sure you want to continue?"
 msgstr "Muutosta ei voi perua. Haluatko varmasti jatkaa?"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1233
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1248
 msgid "No"
 msgstr "Ei"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1243
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1258
 msgid "Record is connected to other data in the database and cannot be removed. If you need more information or want to remove the record, please leave a <a href=\"https://www.tietokannat.info/support/\">support request</a>."
 msgstr "Tietueella on yhteyksiä tietokannan muihin tietoihin eikä sitä voida poistaa. Jos tarvitset lisätietoja tai poistaminen on välttämätöntä, ole hyvä ja jätä <a href=\"https://www.tietokannat.info/support/\">tukipyyntö</a>."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1268
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1283
 msgid "Empty record set."
 msgstr "Tietuejoukko on tyhjä."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1303
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1318
 msgid "Save or return:"
 msgstr "Tallenna tai palaa:"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1336
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1351
 msgid "Cancel your registration"
 msgstr "Peru ilmoittautumisesi"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1337
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1352
 msgid "Create file"
 msgstr "Luo tiedosto"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1338
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1353
 msgid "Load"
 msgstr "Lataa"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1339
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1354
 msgid "Perform"
 msgstr "Suorita"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1340
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1355
 msgid "Register to this event"
 msgstr "Ilmoittaudu tapahtumaan"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1392
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1403
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1407
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1418
 msgid "Reset"
 msgstr "Tyhjennä valinnat"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1497
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1512
 msgid "Verification does not match."
 msgstr "Varmistuskenttä ei täsmää."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1539
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1554
 msgid "Database error. To solve the issue, an automatic error report has been sent to service provider. Please try again later."
 msgstr "Tietokantavirhe. Tilanteen korjaamiseksi automaattinen virheraportti on lähtenyt palveluntarjoajalle. Ole hyvä ja yritä myöhemmin uudestaan."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1542
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1557
 msgid "Duplicate error: a similar record already exists in the database."
 msgstr "Duplikaattivirhe: samanlainen tietue on jo tietokannassa."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1581
+#: /Applications/MAMP/htdocs/shared_code/classes/form_generator.class.php:1596
 #: /Applications/MAMP/htdocs/shared_code/classes/ImportBankdata.class.php:381
 msgid "Action performed successfully"
 msgstr "Toimenpide suoritettu onnistuneesti"
@@ -1542,117 +1542,118 @@ msgstr "Aseta eronneeksi"
 msgid "Add role"
 msgstr "Lisää rooli"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:520
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:518
 msgid "Show / hide help"
 msgstr "Näytä / piilota ohje"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:521
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:519
 msgid "You can search in the following fields:"
 msgstr "Voit hakea tietoja seuraavista kentistä:"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:522
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:520
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/searchWithSqlNotInUse.php:134
 msgid "You can also search with reference numbers, but then wildcards are not in use."
 msgstr "Hakutermiksi voit antaa myös viitenumeron, mutta tällöin jokerimerkit eivät ole käytössä."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:523
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:521
 msgid "If you leave the fields empty, the search engine will fetch all members."
 msgstr "Jos jätät hakukentät tyhjiksi, hakukone palauttaa kaikkien jäsenten tiedot."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:534
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:532
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/searchWithSqlNotInUse.php:145
 msgid "Search term(s)"
 msgstr "Hakusana(t)"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:540
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:643
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:658
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:538
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:641
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:656
 msgid "(to choose multiple, keep Ctrl pressed)"
 msgstr "(valitaksesi useita, pidä Ctrl painettuna)"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:555
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:553
 msgid "from"
 msgstr "alkaen"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:562
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:560
 msgid "to"
 msgstr "päättyen"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:602
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:600
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/subscribers.php:216
 msgid "Subscriber type"
 msgstr "Tilaajatyyppi"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:617
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:615
 msgid "Join date from"
 msgstr "Liittymispäivä alkaen"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:625
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:623
 msgid "Join date to"
 msgstr "Liittymispäivä asti"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:643
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:641
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/searchWithSqlNotInUse.php:163
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/setGroup.php:62
 msgid "Group"
 msgstr "Ryhmä"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:658
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:656
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/setView.php:44
 msgid "Suborganization"
 msgstr "Alaorganisaatio"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:668
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:666
 msgid "Traverse suborganizations"
 msgstr "Hae myös alaorganisaatioista"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:694
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:692
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/searchWithSqlNotInUse.php:175
 msgid "Find records with the following fields empty:"
 msgstr "Etsi tietueet, joissa seuraavilla kentillä on tyhjä arvo:"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:714
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:740
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:778
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:717
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:743
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:781
 msgid "Limit search"
 msgstr "Rajaa hakua"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:861
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:864
 msgid "Limit search to those who want correnspondence by snailmail"
 msgstr "Rajaa haku niihin, jotka haluavat yhteydenotot kirjepostina"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:867
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:870
 msgid "Limit search to those who do not have an email address"
 msgstr "Rajoita haku niihin, joilla ei ole sähköpostiosoitetta"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:972
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:971
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/searchWithSqlNotInUse.php:250
 msgid "Search result"
 msgstr "Hakutulos"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:978
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:977
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/searchWithSqlNotInUse.php:265
 msgid "There were no hits with your search criteria. Please try again."
 msgstr "Antamillasi hakuehdoilla ei löytynyt osumia. Ole hyvä ja yritä uudelleen."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:984
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:983
 msgid "The stickers are optimised to the size of 70 mm x 36 mm. If the stickers are not positioned correctly, try switching off the automatic scaling from Adobe Reader's printing settings."
 msgstr "Tarrat on optimoitu kokoon 70 mm x 36 mm. Jos tarrat eivät osu kohdalleen, kokeile asettaa sivun automaattinen skaalaus pois päältä Adobe Readerin tulostusasetuksissa."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1003
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1002
 msgid "Export all results to Excel"
 msgstr "Vie kaikki tulokset Exceliin"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1007
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1006
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1213
 msgid "Export all results to CSV"
 msgstr "Vie kaikki tulokset CSV-muotoon"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1011
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1010
 msgid "Create stickers for all results"
 msgstr "Luo tuloksista tarrat"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1014
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1235
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1243
 msgid "Use invoicing addresses"
 msgstr "Käytä laskutusosoitteita"
 
@@ -1691,14 +1692,18 @@ msgstr "Antamillasi hakuehdoilla löytyy yli"
 msgid "hits. Please limit your search criteria."
 msgstr "tietuetta. Ole hyvä ja rajaa hakua."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1225
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1233
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/setView.php:37
 msgid "Add to suborganization"
 msgstr "Lisää alaorganisaatioon"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1231
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1239
 msgid "Create stickers"
 msgstr "Luo tarrat"
+
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1253
+msgid "Include organisation name"
+msgstr "Sisällytä organisaation nimi"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/searchWithSqlNotInUse.php:133
 msgid "You can search from the database's following fields:"
@@ -1943,79 +1948,75 @@ msgstr "Jäsenmäärän kehitys"
 msgid "Invoiced during the current year"
 msgstr "Kuluvana vuonna laskutettu"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:260
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:300
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:359
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:649
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:273
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:313
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:370
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:658
 msgid "Address"
 msgstr "Osoite"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:262
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:275
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:187
 msgid "Year or date of birth"
 msgstr "Syntymävuosi tai -aika"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:273
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:286
 msgid "Age"
 msgstr "Ikä"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:294
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:353
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:307
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:364
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:207
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:156
 msgid "Title"
 msgstr "Titteli"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:301
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:360
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:314
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:371
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:217
 msgid "Invoicing address (if other than home address)"
 msgstr "Laskutusosoite (jos muu kuin kotiosoite)"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:303
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:362
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:222
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:316
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:373
 msgid "Special diet"
 msgstr "Mahdollinen erityisruokavalio"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:307
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:366
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:236
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:320
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:377
 msgid "Guest's name"
 msgstr "Vieraan nimi"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:308
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:367
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:241
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:321
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:378
 msgid "Guest's employer/educational institution"
 msgstr "Vieraan työnantaja/oppilaitos"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:309
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:368
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:322
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:379
 msgid "Guest's e-mail"
 msgstr "Vieraan sähköpostiosoite"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:318
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:329
 msgid "Registered"
 msgstr "Ilmoittautuneet"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:639
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:648
 msgid "Addresses"
 msgstr "Osoitteet"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:652
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:661
 msgid "Extra address"
 msgstr "Lisäosoite"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:667
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:676
 msgid "Last subscription"
 msgstr "Edellinen tilaus"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:684
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:693
 msgid "Foreign"
 msgstr "Ulkomaiset"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:755
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:762
 msgid "Subscription ended"
 msgstr "Tilaus päättyi"
 
@@ -2055,106 +2056,106 @@ msgstr "Kansallisuus"
 msgid "Employer"
 msgstr "Työnantaja"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:380
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:392
 msgid "Add member"
 msgstr "Lisää jäsen"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:424
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:436
 msgid "(If you want to enter several addresses, please separate them with commas.)"
 msgstr "(Jos haluat syöttää useampia osoitteita, erota osoitteet pilkulla.)"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:609
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:621
 msgid "Note:"
 msgstr "Huomaa:"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:609
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:621
 msgid "If you want to add a person into a group in a certain role"
 msgstr "Jos haluat liittää henkilön ryhmään tietyssä roolissa"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:609
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:621
 msgid "click here"
 msgstr "napsauta tästä"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:714
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:726
 msgid "Define the person's member type first, if you want to create an invoice."
 msgstr "Määrittele ensin henkilön jäsentyyppi, jos haluat kirjoittaa hänelle laskun."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:727
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:739
 msgid "Print reminder"
 msgstr "Tulosta karhulasku"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:735
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:747
 msgid "Send reminder"
 msgstr "Lähetä karhulasku"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:850
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:862
 msgid "This action will erase the person’s <strong>all</strong> information immediately. This action is intended to be used when a person has been created by mistake."
 msgstr "Tämä toimenpide poistaa henkilön <strong>kaikki</strong> tiedot välittömästi. Toimenpide on tarkoitettu vahingossa luotujen henkilöiden poistamiseen."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:865
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:917
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:877
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:929
 msgid "Generate new password for member"
 msgstr "Luo jäsenelle uusi salasana"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:874
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:979
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:886
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:991
 msgid "Leave resign request"
 msgstr "Jätä eronpyyntö"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:918
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:930
 msgid "Here you can create a new password for a person and send it to his/her e-mail address."
 msgstr "Voit luoda henkilölle uuden salasanan ja lähettää sen hänen sähköpostiosoitteeseensa."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:935
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:947
 msgid "Greetings"
 msgstr "Terveisin"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:936
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:948
 msgid "New password"
 msgstr "Uusi salasana"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:989
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1001
 msgid "Resign request"
 msgstr "Eronpyyntö"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:989
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1001
 msgid "A new resign request has been left"
 msgstr "Järjestelmään on jätetty uusi eronpyyntö."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1011
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1074
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1023
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1086
 msgid "members"
 msgstr " jäsentä"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1069
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1081
 msgid "no members found"
 msgstr "ei löytynyt jäseniä"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1073
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1085
 msgid "Initial"
 msgstr "Alkukirjain"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1074
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1086
 msgid "member"
 msgstr "jäsen"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1099
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1111
 msgid "Save changes in group membership"
 msgstr "Tallenna ryhmätietojen muutokset"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1102
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1114
 msgid "If you wish to edit the group information of several members at once, <strong>first</strong> choose the group from the drop-down menu, perform the changes in the Group membership column, and save changes. You can both add and remove people to and from the group at the same time."
 msgstr "Jos haluat muuttaa kerralla useamman jäsenen ryhmätietoja, valitse <strong>ensin</strong> alasvetovalikosta haluamasi ryhmä, tee muutokset Ryhmäjäsenyys-sarakkeeseen ja tallenna muutokset. Voit sekä lisätä että poistaa henkilöitä ryhmästä samalla kertaa."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1103
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1115
 msgid "If you want to add a person to a group in a certain role, create the <a href=\"./?action=roles\">roles</a> you want, find the person with the <a href=\"./?action=search\">search</a> and add the person to the group in the search results."
 msgstr "Jos haluat liittää henkilön ryhmään tietyssä roolissa, luo haluamasi <a href=\"./?action=roles\">roolit</a>, etsi henkilö <a href=\"./?action=search\">haulla</a> ja liitä henkilö ryhmään hakutuloksissa."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1195
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1207
 msgid "In your current subscription you can save up to"
 msgstr "Nykyisessä tilauksessasi voit tallentaa enintään"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1197
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1209
 msgid "members. Please contact the service provider if you want to upgrade your account."
 msgstr "jäsentä. Ota yhteyttä palveluntarjoajaan, jos haluat päivittää tilauksesi."
 
@@ -2211,15 +2212,15 @@ msgstr "Jos et pääsekään osallistumaan, ole hyvä ja peru ilmoittautumisesi 
 msgid "If you are unable to attend, please cancel your registration at this address: "
 msgstr "Jos et pääsekään osallistumaan, ole hyvä ja peru ilmoittautumisesi osoitteessa: "
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:366
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:369
 msgid "has invited you to this event. Please notify him/her, if you cannot participate."
 msgstr "on kutsunut sinut tähän tapahtumaan. Ilmoitathan hänelle, jos et pääse osallistumaan."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:386
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:389
 msgid "You have not registered to this event."
 msgstr "Et ole ilmoittautunut tähän tapahtumaan."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:402
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:405
 msgid "This page does not exist: the web address is incorrect."
 msgstr "Sivua ei löydy: antamasi www-osoite on virheellinen."
 
@@ -2377,7 +2378,6 @@ msgid "Composer"
 msgstr "Säveltäjä"
 
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/contents/admin/products.php:269
-#: /Applications/MAMP/htdocs/shared_code/core_royalties/thickboxes/product_rights.php:10
 msgid "Rights"
 msgstr "Oikeudet"
 
@@ -2446,7 +2446,6 @@ msgstr "Lisää yhteyshenkilö"
 
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/contacts.php:60
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/contacts.php:101
-#: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/projects.php:54
 msgid "Client's contact person"
 msgstr "Asiakkaan yhteyshenkilö"
 
@@ -2483,6 +2482,7 @@ msgid "Edit project"
 msgstr "Muokkaa projektin tietoja"
 
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/projects.php:158
+#: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/search.php:84
 msgid "Projects"
 msgstr "Projektit"
 
@@ -2529,35 +2529,35 @@ msgstr "Demon tietoihin tehdyt muutokset tyhjennetään kerran päivässä."
 msgid "If you want to ask questions, <a href=\"https://www.tietokannat.info/support/\">please leave a support request</a>."
 msgstr "Jos haluat esittää kysymyksiä, <a href=\"https://www.tietokannat.info/support/\">ole hyvä ja jätä tukipyyntö</a>."
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:565
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:575
 msgid "Enrollment year"
 msgstr "Aloitusvuosi"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:566
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:576
 msgid "Graduated"
 msgstr "Valmistunut"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:567
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:577
 msgid "Degree program"
 msgstr "Koulutusohjelma"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:929
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:942
 msgid "Own specialty / interests"
 msgstr "Oma osaaminen / kiinnostus"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1441
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1459
 msgid "Administrator"
 msgstr "Pääkäyttäjä"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1442
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1460
 msgid "Suborganization (in multi-level organizations)"
 msgstr "Alaorganisaatio (monitasoisissa organisaatioissa)"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1443
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1461
 msgid "Web site + events"
 msgstr "Verkkosivut + tapahtumat"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1444
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1462
 msgid "Web site management only"
 msgstr "Vain verkkosivujen päivitys"
 
@@ -2571,51 +2571,51 @@ msgstr "Tiedostoa ei ole olemassa."
 msgid "Ups! Page cannot be found."
 msgstr "Ups! Sivua ei löytynyt."
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:101
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:102
 msgid "You have read-only permissions. You can see the information, but you cannot edit it."
 msgstr "Sinulla on vain lukuoikeudet. Voit katsoa tietoja, mutta et voi muokata niitä."
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:106
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:107
 msgid "Admin main page"
 msgstr "Ylläpidon pääsivu"
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:107
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:108
 msgid "You are at the database administration's main page. Choose from the navigation bar above what you wish to do."
 msgstr "Olet tietokannan ylläpidon pääsivulla. Valitse yllä olevasta navigaatiopalkista mitä haluat tehdä."
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:159
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:160
 msgid "Shortcuts"
 msgstr "Pikavalinnat"
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:163
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:164
 msgid "Obligatory information is missing! Add your own information here:"
 msgstr "Pakollisia tietoja puuttuu! Lisää omat tiedot täällä:"
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:189
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:190
 msgid "We have fetched an automatic address update from Itella to FloMembers Premium customers. Click below to view and approve the list of updated addresses."
 msgstr "Olemme noutaneet Itellasta automaattisen osoitepäivityksen FloMembers Premium -asiakkaille. Napsauttamalla seuraavaa linkkiä voit tarkastella ja hyväksyä päivitettyjen osoitteiden listan."
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:191
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:192
 msgid "View the updated addresses"
 msgstr "Tarkastele päivitettyjä osoitteita"
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:205
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:206
 msgid "Browse members"
 msgstr "Selaa jäseniä"
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:206
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:207
 msgid "Search persons and create stickers"
 msgstr "Hae henkilöitä ja luo tarroja"
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:209
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:210
 msgid "Administer groups"
 msgstr "Hallinnoi ryhmiä"
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:234
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:235
 msgid "Flo Apps Ltd informs"
 msgstr "Flo Apps Ltd tiedottaa"
 
-#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:283
+#: /Applications/MAMP/htdocs/shared_code/include/doAdminHome.inc.php:284
 msgid "Change RSS feed"
 msgstr "Vaihda uutisvirtaa"
 
@@ -3052,9 +3052,6 @@ msgstr "Laskut sopivat esimerkiksi ikkunakuoriin kokoa E4 SSS I ja E5 RH ST."
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1710
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1900
-#: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:161
-#: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:213
-#: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:272
 msgid "Your reference"
 msgstr "Viitteenne"
 
@@ -3196,6 +3193,7 @@ msgid "Edit payment"
 msgstr "Muokkaa maksua"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/ledger.php:75
+#: /Applications/MAMP/htdocs/shared_code/modules/stats.php:65
 msgid "Change month"
 msgstr "Vaihda kuukautta"
 
@@ -3379,31 +3377,35 @@ msgstr "Lähetä rekisteröityminen"
 msgid "Please enter the correct word!"
 msgstr "Ole hyvä ja syötä oikea sana!"
 
-#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:374
+#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:379
 msgid "Become a member"
 msgstr "Liity jäseneksi"
 
-#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:375
+#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:380
 msgid "Service provided by"
 msgstr "Palvelun tarjoaa"
 
-#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:375
+#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:380
 msgid "Data will be saved in <a href=\"http://www.flomembers.fi/\" target=\"_blank\">FloMembers</a>"
 msgstr "Tiedot tallennetaan <a href=\"http://www.flomembers.fi/\" target=\"_blank\">FloMembers</a>-ohjelmaan"
 
-#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:524
+#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:390
+msgid "First names"
+msgstr "Etunimet"
+
+#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:529
 msgid "Preferred communication method"
 msgstr "Toivottu viestintämuoto"
 
-#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:607
+#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:612
 msgid "Send"
 msgstr "Lähetä"
 
-#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:646
+#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:655
 msgid "Thank you for your registration!"
 msgstr "Kiitos ilmoittautumisestasi!"
 
-#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:682
+#: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:691
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/sm2011.php:619
 msgid "We will contact you soon."
 msgstr "Otamme sinuun yhteyttä pian."
