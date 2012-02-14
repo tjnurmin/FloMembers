@@ -46,12 +46,14 @@ foreach ($config['arrayOfLangs'] as $lang)
     $GLOBALS['PdfTranslationBusinessId'][$lang] = _("Business ID");
     $GLOBALS['PdfTranslationClientBusinessId'][$lang] = _("Client's Business ID");
     $GLOBALS['PdfTranslationDueDate'][$lang] = _("Due date");
+    $GLOBALS['PdfTranslationEmail'][$lang] = _("Email");
     $GLOBALS['PdfTranslationExclVat'][$lang] = _("Excl. VAT");
     $GLOBALS['PdfTranslationInterest'][$lang] = _("Penalty interest");
     $GLOBALS['PdfTranslationImmediately'][$lang] = _("NOW");
     $GLOBALS['PdfTranslationInvoice'][$lang] = _("INVOICE");
     $GLOBALS['PdfTranslationInvoiceNumber'][$lang] = _("Invoice nr");
     $GLOBALS['PdfTranslationMarginalTaxNotice'][$lang] = _("Marginal rate tax. Price does not contain deductible value-added tax.");
+    $GLOBALS['PdfTranslationMembertype'][$lang] = _("Member type");
     $GLOBALS['PdfTranslationMustBePaid'][$lang] = _("TO BE PAID");
     $GLOBALS['PdfTranslationOurReference'][$lang] = _('Our ref.');
     $GLOBALS['PdfTranslationPayerDiscount'][$lang] = _("Subscription agent discount");

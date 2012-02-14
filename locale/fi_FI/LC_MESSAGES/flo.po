@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flo 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-06 00:25+0200\n"
+"POT-Creation-Date: 2012-02-13 12:59+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tapio Nurminen <tapio.nurminen@floapps.com>\n"
 "Language-Team: Flo Apps Ltd <info@floapps.com>\n"
@@ -1006,7 +1006,7 @@ msgstr "Poista liite"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:540
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:593
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:318
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:317
 msgid "Message will be sent to:"
 msgstr "Viesti lähetetään vastaanottajalle:"
 
@@ -1015,20 +1015,20 @@ msgid "No recipients."
 msgstr "Ei vastaanottajia."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:593
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:318
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:317
 msgid "Message will be sent to search results."
 msgstr "Viesti lähetetään hakutuloksille."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:593
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:318
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:317
 msgid "Clear recipients"
 msgstr "Tyhjennä vastaanottajat"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:600
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:621
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/emails.php:15
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:325
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:329
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:324
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:328
 msgid "Message"
 msgstr "Viesti"
 
@@ -1052,7 +1052,7 @@ msgid "Attachment(s)"
 msgstr "Liitetiedosto(t)"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:654
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:346
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:345
 msgid "Send message"
 msgstr "Lähetä viesti"
 
@@ -1455,7 +1455,7 @@ msgstr "Valitse vastaanottaja"
 msgid "Single recipient"
 msgstr "Yksittäinen vastaanottaja"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:356
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:355
 msgid "Not in demo version"
 msgstr "Ei demoversiossa"
 
@@ -2172,7 +2172,7 @@ msgid "The event has been removed or does not exist."
 msgstr "Tapahtuma on poistettu tai sitä ei ole."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:125
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:307
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:311
 msgid "You have already registered to this event"
 msgstr "Olet jo ilmoittautunut tähän tapahtumaan"
 
@@ -2192,35 +2192,35 @@ msgstr "Tuon mukanani vieraan"
 msgid "Guest's e-mail (if you want him/her to receive a notification of the invitation)"
 msgstr "Vieraan sähköpostiosoite (jos haluat hänen saavan ilmoituksen kutsusta)"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:322
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:329
 msgid "Thank you for your registration"
 msgstr "Kiitos ilmoittautumisestasi!"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:331
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:338
 msgid "Unfortunately the event is full. You have registered to reserve place "
 msgstr "Tapahtuma on ikävä kyllä jo täynnä. Olet ilmoittautunut varasijalle"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:333
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:340
 msgid "The guest you registered has not received this notification."
 msgstr "Ilmoittamasi vieras ei ole saanut tätä ilmoitusta."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:346
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:353
 msgid "If you are unable to attend, please cancel your registration through the event menu."
 msgstr "Jos et pääsekään osallistumaan, ole hyvä ja peru ilmoittautumisesi tapahtumavalikon kautta."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:355
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:362
 msgid "If you are unable to attend, please cancel your registration at this address: "
 msgstr "Jos et pääsekään osallistumaan, ole hyvä ja peru ilmoittautumisesi osoitteessa: "
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:369
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:376
 msgid "has invited you to this event. Please notify him/her, if you cannot participate."
 msgstr "on kutsunut sinut tähän tapahtumaan. Ilmoitathan hänelle, jos et pääse osallistumaan."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:389
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:396
 msgid "You have not registered to this event."
 msgstr "Et ole ilmoittautunut tähän tapahtumaan."
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:405
+#: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:412
 msgid "This page does not exist: the web address is incorrect."
 msgstr "Sivua ei löydy: antamasi www-osoite on virheellinen."
 
@@ -2541,23 +2541,23 @@ msgstr "Valmistunut"
 msgid "Degree program"
 msgstr "Koulutusohjelma"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:942
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:947
 msgid "Own specialty / interests"
 msgstr "Oma osaaminen / kiinnostus"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1459
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1464
 msgid "Administrator"
 msgstr "Pääkäyttäjä"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1460
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1465
 msgid "Suborganization (in multi-level organizations)"
 msgstr "Alaorganisaatio (monitasoisissa organisaatioissa)"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1461
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1466
 msgid "Web site + events"
 msgstr "Verkkosivut + tapahtumat"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1462
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1467
 msgid "Web site management only"
 msgstr "Vain verkkosivujen päivitys"
 
