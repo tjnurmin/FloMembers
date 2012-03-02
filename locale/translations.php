@@ -1,5 +1,7 @@
 <?php
 /*
+	UP-TO-DATE VERSION IN GITHUB
+
 	Flo 2.0 PHP Framework
     Copyright (C) 2011  Flo Apps Ltd (www.floapps.com)
 
@@ -17,6 +19,14 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
+	
+// TODO
+$GLOBALS['contactMethods'] = array(
+    1 => "Tapaaminen",
+    2 => "Email",
+    3 => "Puhelin",
+    4 => "WWW"
+);
 
 $GLOBALS['arrVatOptions'] = array(
     0   => 0,
@@ -29,46 +39,39 @@ $GLOBALS['arrVatOptions'] = array(
     23  => 23
 );
 
-$GLOBALS['contactMethods'] = array(
-    1 => "Tapaaminen",
-    2 => "Email",
-    3 => "Puhelin",
-    4 => "WWW"
-);
-
 $GLOBALS['languages'] = array(
     'eng' => 'English',
     'fin' => 'suomi',
     'sve' => 'svenska'
 );
 
+// http://www.itella.fi/palvelutjatuotteet/osoitepalvelut/postinumerotuotteet/postinumeroalueet.html
 $GLOBALS['postalAreas'] = array(
-    array('Helsinki',0,10),
-    array('Oulu',90,93),
-    array('Hämeenlinna',11,14),
-    array('Lahti',15,19),
-    array('Turku',20,27),
-    array('Pori',28,29),
     array('Forssa',30,32),
-    array('Tampere',33,39),
+    array('Hämeenlinna',11,14),
+    array('Helsinki',0,10),
+    array('Joensuu',80,83),
     array('Jyväskylä',40,44),
-    array('Kouvola',45,47),
+    array('Kajaani',87,89),
+    array('Kemi',94,95),
+    array('Kokkola',67,69),
     array('Kotka',48,49),
-    array('Mikkeli',50,52),
+    array('Kouvola',45,47),
+    array('Kuopio',70,75),
+    array('Lahti',15,19),
     array('Lappeenranta',53,56),
     array('Lappeenranta',59,59),
+    array('Mikkeli',50,52),
+    array('Oulu',90,93),
+    array('Pieksämäki',76,79),
+    array('Pori',28,29),
+    array('Rovaniemi',96,99),
     array('Savonlinna',57,58),
     array('Seinäjoki',60,64),
- 	array('Vaasa',65,66),
- 	array('Kokkola',67,69),
- 	array('Kuopio',70,75),
- 	array('Pieksämäki',76,79),
- 	array('Joensuu',80,83),
- 	array('Ylivieska',84,86),
- 	array('Kajaani',87,89),
- 	array('Oulu',90,93),
- 	array('Kemi',94,95),
- 	array('Rovaniemi',96,99)
+    array('Tampere',33,39),
+    array('Turku',20,27),
+    array('Vaasa',65,66),
+    array('Ylivieska',84,86)
 );
 
 $GLOBALS['region_in_province'] = array(
