@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flo 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-11 20:29+0200\n"
+"POT-Creation-Date: 2012-03-12 07:49+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tapio Nurminen <tapio.nurminen@floapps.com>\n"
 "Language-Team: Flo Apps Ltd <info@floapps.com>\n"
@@ -986,20 +986,21 @@ msgid "Recipient"
 msgstr "Vastaanottaja"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:467
-msgid "Send mail to a single recipient"
-msgstr "Lähetä viesti yhdelle vastaanottajalle"
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:234
+msgid "Single recipient"
+msgstr "Yksittäinen vastaanottaja"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:475
-msgid "Send mail to all members who wish to receive newsletters by e-mail."
-msgstr "Lähetä viesti kaikille jäsenille jotka ovat toivoneet uutiskirjeen sähköpostitse."
+msgid "All members who wish to receive newsletters by e-mail"
+msgstr "Kaikki jäsenet jotka ovat toivoneet uutiskirjeen sähköpostitse"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:484
-msgid "Send message to unsubscribed persons"
-msgstr "Lähetä viesti tilauksensa lopettaneille"
+msgid "Expired subscribers"
+msgstr "Päättyneet tilaukset"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:496
-msgid "Send message to the event's participants"
-msgstr "Lähetä viesti tapahtumaan ilmoittautuneille"
+msgid "Event participants"
+msgstr "Tapahtuman osallistujat"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:508
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:269
@@ -1460,10 +1461,6 @@ msgstr "Viesti lähetettiin onnistuneesti. Saatiin seuraavat vastauskoodit:"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:230
 msgid "Choose recipient"
 msgstr "Valitse vastaanottaja"
-
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:234
-msgid "Single recipient"
-msgstr "Yksittäinen vastaanottaja"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/mobile.php:355
 msgid "Not in demo version"
@@ -3499,6 +3496,15 @@ msgstr "Autentikointivirhe; ole hyvä ja ota yhteyttä ylläpitäjään."
 msgid "Thank you for your submission!"
 msgstr "Kiitos lähetyksestä!"
 
+#~ msgid "Send mail to a single recipient"
+#~ msgstr "Lähetä viesti yhdelle vastaanottajalle"
+
+#~ msgid "Send message to unsubscribed persons"
+#~ msgstr "Lähetä viesti tilauksensa lopettaneille"
+
+#~ msgid "Send message to the event's participants"
+#~ msgstr "Lähetä viesti tapahtumaan ilmoittautuneille"
+
 #~ msgid "Send mail to all members"
 #~ msgstr "Lähetä viesti koko jäsenistölle"
 
@@ -3507,9 +3513,6 @@ msgstr "Kiitos lähetyksestä!"
 
 #~ msgid "All members"
 #~ msgstr "Kaikki jäsenet"
-
-#~ msgid "Event participants"
-#~ msgstr "Tapahtuman osallistujat"
 
 #~ msgid "Unpaid"
 #~ msgstr "Maksamattomat"
