@@ -144,19 +144,21 @@ DROP TABLE IF EXISTS `custom_settings`;
 CREATE TABLE `custom_settings` (
   `id` smallint(5) unsigned NOT NULL auto_increment,
   `type` enum('select') collate utf8_swedish_ci NOT NULL,
-  `label` tinytext collate utf8_swedish_ci NOT NULL,
   `required` tinyint(1) NOT NULL default '0',
   `show_in_application_form` tinyint(1) NOT NULL default '0',
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `custom_values`;
 CREATE TABLE `custom_values` (
   `id` smallint(5) unsigned NOT NULL auto_increment,
   `link_setting` smallint(5) unsigned NOT NULL,
-  `value` tinytext collate utf8_swedish_ci NOT NULL,
+  `use_as_label` tinyint(1) unsigned NOT NULL default '0',
+  `fin` tinytext collate utf8_swedish_ci,
+  `sve` tinytext collate utf8_swedish_ci,
+  `eng` tinytext collate utf8_swedish_ci,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
 -- Email drafts
 
@@ -827,6 +829,7 @@ CREATE TABLE `tblmembertypes` (
   `id` tinyint(6) unsigned NOT NULL auto_increment,
   `name` varchar(100) collate utf8_swedish_ci NOT NULL,
   `fee` decimal(5,2) unsigned NOT NULL default '0.00',
+  `show_in_application_form` tinyint(1) unsigned NOT NULL default '0',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=7 ;
@@ -835,9 +838,9 @@ CREATE TABLE `tblmembertypes` (
 -- Dumping data for table `tblmembertypes`
 -- 
 
-INSERT INTO `tblmembertypes` VALUES (1, 'Jäsen', 20);
-INSERT INTO `tblmembertypes` VALUES (3, 'Kannattajajäsen', 20);
-INSERT INTO `tblmembertypes` VALUES (6, 'Juniorijäsen', 10);
+INSERT INTO `tblmembertypes` VALUES (1, 'Jäsen', 20, 1);
+INSERT INTO `tblmembertypes` VALUES (3, 'Kannattajajäsen', 20, 1);
+INSERT INTO `tblmembertypes` VALUES (6, 'Juniorijäsen', 10, 1);
 
 -- --------------------------------------------------------
 
