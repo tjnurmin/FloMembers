@@ -212,6 +212,7 @@ if ($lang_chosen == "fin")
     TEXT_NEXT_MONTH:'Seuraava kuukausi',
     TEXT_CLOSE:'Sulje',
     TEXT_CHOOSE_DATE:'Valitse p&auml;iv&auml;'}");
+    define("_JS_LANGUAGE", "fi");
     define("_JS_UNSAVED_CHANGES_WILL_BE_LOST", '"Tallentamattomat muutokset katoavat.\nHaluatko jatkaa?"');
     define("_JS_VALIDATOR_TRANSLATIONS",
 '
@@ -312,6 +313,7 @@ elseif ($lang_chosen == "sve")
     TEXT_NEXT_MONTH:'N&auml;sta m&aring;nad',
     TEXT_CLOSE:'St&auml;ng',
     TEXT_CHOOSE_DATE:'V&auml;lj datum'}");
+    define("_JS_LANGUAGE", "sv");
     define("_JS_UNSAVED_CHANGES_WILL_BE_LOST", '"Osparade &auml;ndringar kommer att f&ouml;rsvinna.\nVill du forts&auml;tta?"');
     define("_JS_VALIDATOR_TRANSLATIONS",
     '
@@ -405,6 +407,7 @@ else
     define("_JS_CORRECT_VERIFY_WORD", "Please enter the correct word!");
     define("_JS_DATE_LOCALE_FILE", ""); // englanninkieliset puuttuvat
     define("_JS_DATE_TRANSLATIONS", "");
+    define("_JS_LANGUAGE", "en");
     define("_JS_UNSAVED_CHANGES_WILL_BE_LOST", '"Unsaved changes will be lost.\nReally continue?"');
     define("_JS_VALIDATOR_TRANSLATIONS", "");
 
