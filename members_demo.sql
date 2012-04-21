@@ -145,6 +145,7 @@ CREATE TABLE `custom_settings` (
   `id` smallint(5) unsigned NOT NULL auto_increment,
   `type` enum('select') collate utf8_swedish_ci NOT NULL,
   `required` tinyint(1) NOT NULL default '0',
+  `required_in_application` tinyint(1) NOT NULL default '0',
   `show_in_application_form` tinyint(1) NOT NULL default '0',
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
@@ -283,9 +284,9 @@ CREATE TABLE `event_registrations` (
 
 DROP TABLE IF EXISTS `extra_invoice_options`;
 CREATE TABLE `extra_invoice_options` (
-`id` SMALLINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
-`name` TINYTEXT NOT NULL ,
-`value` decimal(10,2) NOT NULL
+  `id` SMALLINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  `name` TINYTEXT NOT NULL ,
+  `value` decimal(10,2) NOT NULL
 ) ENGINE = MYISAM ;
 
 -- 
@@ -303,9 +304,11 @@ CREATE TABLE `form_options` (
   `show_invoicing_address_field` tinyint(1) unsigned NOT NULL default '0',
   `show_language_field` tinyint(1) unsigned NOT NULL default '0',
   `show_region_fields` tinyint(1) unsigned NOT NULL default '0',
+  `show_membership_prices` tinyint(1) unsigned NOT NULL default '0',
   `write_invoice_on_success` tinyint(1) unsigned NOT NULL default '0',
   `descr` text collate utf8_swedish_ci,
   `disclaimer` text collate utf8_swedish_ci,
+  `info` text collate utf8_swedish_ci,
   `is_email_mandatory` tinyint(1) unsigned NOT NULL default '1',
   `is_born_field_mandatory` tinyint(1) unsigned NOT NULL default '0',
   `is_employer_field_mandatory` tinyint(1) unsigned NOT NULL default '0',
@@ -314,7 +317,7 @@ CREATE TABLE `form_options` (
   `payment_schedule` tinyint(1) unsigned NOT NULL default '2',
   `link_account` tinyint(3) unsigned default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 INSERT INTO `form_options` (id, show_region_fields) VALUES (DEFAULT, 1);
 
@@ -837,7 +840,7 @@ CREATE TABLE `tblmembertypes` (
   `show_in_application_form` tinyint(1) unsigned NOT NULL default '0',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `name` (`name`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=7 ;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 -- 
 -- Dumping data for table `tblmembertypes`
