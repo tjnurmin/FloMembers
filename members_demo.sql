@@ -41,6 +41,7 @@ CREATE TABLE `address_changes` (
   `countrycode` tinytext,
   `country` tinytext,
   `change` smallint(6) unsigned NOT NULL,
+  `created` timestamp NOT NULL default CURRENT_TIMESTAMP,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `unique_person` (`type`,`link_person`,`change`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
