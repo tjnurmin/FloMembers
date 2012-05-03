@@ -53,6 +53,7 @@ foreach ($config['arrayOfLangs'] as $lang)
     $GLOBALS['PdfTranslationInvoice'][$lang] = _("INVOICE");
     $GLOBALS['PdfTranslationInvoiceNumber'][$lang] = _("Invoice nr");
     $GLOBALS['PdfTranslationMarginalTaxNotice'][$lang] = _("Marginal rate tax. Price does not contain deductible value-added tax.");
+    $GLOBALS['PdfTranslationMemberId'][$lang] = _("MemberID");
     $GLOBALS['PdfTranslationMembertype'][$lang] = _("Member type");
     $GLOBALS['PdfTranslationMustBePaid'][$lang] = _("TO BE PAID");
     $GLOBALS['PdfTranslationOurReference'][$lang] = _('Our ref.');
@@ -101,4 +102,6 @@ foreach ($config['arrayOfLangs'] as $lang)
 	$GLOBALS['_USER_ID'][$lang] = _("User ID");
 	$GLOBALS['_YOUR_BROWSER_IS_OBSOLETE'][$lang] = _("Your browser is obsolete (you are using Internet Explorer 7.0 or older). You can use the service, but we recommend you upgrade your browser to a newer version.");
 
+	// extra translations
+	$GLOBALS['_MEMBERSHIP'][$lang] = _("Membership");
 }
