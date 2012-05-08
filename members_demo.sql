@@ -334,6 +334,7 @@ CREATE TABLE `groups` (
   `groupFee` decimal(10,2) unsigned default NULL,
   `hide_in_member_view` tinyint(1) default '0',
   `show_in_application_form` tinyint(1) unsigned NOT NULL default '0',
+  `visible_to_views` tinyint(1) unsigned NOT NULL default '0',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `name` (`name`(45))
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
@@ -342,8 +343,8 @@ CREATE TABLE `groups` (
 -- Dumping data for table `groups`
 -- 
 
-INSERT INTO `groups` VALUES (1, 'Yhdistyksen hallitus', NULL, 0, 0);
-INSERT INTO `groups` VALUES (2, 'Sählyporukka', NULL, 0, 0);
+INSERT INTO `groups` VALUES (1, 'Yhdistyksen hallitus', NULL, 0, 0, 0);
+INSERT INTO `groups` VALUES (2, 'Sählyporukka', NULL, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -583,11 +584,12 @@ DROP TABLE IF EXISTS `roles`;
 CREATE TABLE `roles` (
   `id` tinyint(6) unsigned NOT NULL auto_increment,
   `name` tinytext collate utf8_swedish_ci NOT NULL,
+  `visible_to_views` tinyint(1) unsigned NOT NULL default '0',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `name` (`name`(30))
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
-INSERT INTO `roles` VALUES (1, "Puheenjohtaja");
+INSERT INTO `roles` VALUES (1, "Puheenjohtaja", 0);
 
 -- 
 -- Table structure for table `smscount`
