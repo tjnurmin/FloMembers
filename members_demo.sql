@@ -1102,11 +1102,13 @@ DROP TABLE IF EXISTS `views_members`;
 CREATE TABLE `views_members` (
   `link_view` mediumint(8) unsigned NOT NULL,
   `link_member` mediumint(8) unsigned default NULL,
-  `link_application` mediumint(8) unsigned default NULL
+  `link_application` mediumint(8) unsigned default NULL,
+  `admin` tinyint(1) unsigned NOT NULL default '0',
+  `readonly` tinyint(1) unsigned NOT NULL default '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
 
-INSERT INTO `views_members` VALUES (1, 2, NULL);
-INSERT INTO `views_members` VALUES (1, 7, NULL);
+INSERT INTO `views_members` VALUES (1, 2, NULL, 0 ,0);
+INSERT INTO `views_members` VALUES (1, 7, NULL, 1, 0);
 
 -- change collation
 
