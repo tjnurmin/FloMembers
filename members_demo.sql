@@ -592,6 +592,19 @@ CREATE TABLE `roles` (
 INSERT INTO `roles` VALUES (1, "Puheenjohtaja", 0);
 
 -- 
+-- Table structure for table `saved_search_parameters`
+-- 
+
+DROP TABLE IF EXISTS `saved_search_parameters`;
+CREATE TABLE `saved_search_parameters` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` tinytext collate utf8_swedish_ci NOT NULL,
+  `params` text collate utf8_swedish_ci NOT NULL,
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `name` (`name`(30))
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
+
+-- 
 -- Table structure for table `smscount`
 -- 
 
