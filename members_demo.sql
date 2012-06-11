@@ -1076,8 +1076,8 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 -- 
 
-INSERT INTO `users` VALUES (NULL , 'Demokäyttäjä', 'demo', 'info@tietokannat.fi', '7319bf5d9f36886fa3876144f7650f7d4516a73e2b66f0494', '1', 0, 0, NULL, NOW( )
-);
+INSERT INTO `users` VALUES (1 , 'Demokäyttäjä', 'demo', 'info@tietokannat.fi', '7319bf5d9f36886fa3876144f7650f7d4516a73e2b66f0494', '1', 0, 0, NULL, NOW() );
+INSERT INTO `users` VALUES (2, 'Keski-Suomen piiri', 'keskisuomi', 'info@floapps.com', '01d414fae82314d2e776050118ea8ba62b61db67d05e43df8', 4, 0, 0, 1, NOW() );
 
 -- --------------------------------------------------------
 
