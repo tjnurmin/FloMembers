@@ -162,6 +162,26 @@ CREATE TABLE `custom_values` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
+-- Email bounces
+
+DROP TABLE IF EXISTS `email_bounces`;
+CREATE TABLE `email_bounces` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `send_ts` timestamp NULL default NULL,
+  `event_ts` timestamp NULL default NULL,
+  `subject` text collate utf8_swedish_ci,
+  `email` tinytext collate utf8_swedish_ci,
+  `state` tinytext collate utf8_swedish_ci,
+  `customer` tinytext collate utf8_swedish_ci,
+  `received_ts` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  `event` tinytext collate utf8_swedish_ci,
+  `diag` text collate utf8_swedish_ci,
+  `category` tinytext collate utf8_swedish_ci,
+  `mandrill_msg_id` tinytext collate utf8_swedish_ci,
+ `json_dump` longtext collate utf8_swedish_ci,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
+
 -- Email drafts
 
 DROP TABLE IF EXISTS `emailDrafts`;
