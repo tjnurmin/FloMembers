@@ -1,5 +1,5 @@
 -- 
--- Flo Members db dump
+-- FloMembers db dump
 -- 
 
 -- --------------------------------------------------------
@@ -79,14 +79,11 @@ CREATE TABLE `bankdata_nomatch` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
--- --------------------------------------------------------
 
--- 
--- Table structure for table `contacts`
--- 
+-- Contacts
 
 DROP TABLE IF EXISTS `contacts`;
-CREATE TABLE IF NOT EXISTS `contacts` (
+CREATE TABLE `contacts` (
   `id` smallint(5) unsigned NOT NULL auto_increment,
   `lastname` tinytext collate utf8_swedish_ci NOT NULL,
   `firstname` tinytext collate utf8_swedish_ci,
@@ -100,6 +97,8 @@ CREATE TABLE IF NOT EXISTS `contacts` (
   `country` tinytext collate utf8_swedish_ci,
   `extrainfo` text collate utf8_swedish_ci,
   `reference` tinytext collate utf8_swedish_ci,
+  `title` tinytext collate utf8_swedish_ci,
+  `link_organization` smallint(6) unsigned default NULL,
   `residency` tinytext collate utf8_swedish_ci,
   `link_info` tinyint(3) unsigned NOT NULL default '0',
   `link_sex` tinyint(3) unsigned default NULL,
@@ -111,15 +110,11 @@ CREATE TABLE IF NOT EXISTS `contacts` (
   `is_foreign` tinyint(3) unsigned NOT NULL default '0',
   `date` timestamp NOT NULL default CURRENT_TIMESTAMP,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
--- 
--- Dumping data for table `contacts`
--- 
-
-INSERT INTO `contacts` VALUES (1, 'Tuominen', 'Ville', NULL, NULL, 'Paraistentie 17', NULL, '00280', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2008-03-05');
-INSERT INTO `contacts` VALUES (2, 'Eerola', 'Keijo', NULL, NULL, 'Ida Aalbergin tie 2', NULL, '00400', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2009-02-05');
-INSERT INTO `contacts` VALUES (3, 'Keskinen', 'Keijo', 'eetu@testi.fi', NULL, 'Ida Aalbergin tie 5', NULL, '00400', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2009-02-05');
+INSERT INTO `contacts` VALUES (1, 'Tuominen', 'Ville', NULL, NULL, 'Paraistentie 17', NULL, '00280', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2008-03-05 00:00:00');
+INSERT INTO `contacts` VALUES (2, 'Eerola', 'Keijo', NULL, NULL, 'Ida Aalbergin tie 2', NULL, '00400', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2009-02-05 00:00:00');
+INSERT INTO `contacts` VALUES (3, 'Keskinen', 'Keijo', 'eetu@testi.fi', NULL, 'Ida Aalbergin tie 5', NULL, '00400', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2009-02-05 00:00:00');
 
 -- Contact history
 
@@ -555,6 +550,16 @@ INSERT INTO `news` (`id`, `headingFin`, `contentFin`, `headingEng`, `contentEng`
 (1, 'Mikä materiaali mihinkin kenkään?', '<p>Seminaari ja keskustelutilaisuus Vaasassa. Paikalle odotetaan noin kolmeasataa kenkäentusiastia ympäri Pohjoismaita. Ilmoittautumisaika päättyy 1.3.2009.</p>', '', '', '2009-04-05', NULL, '2009-04-02', '2010-02-11', 1, 1, 0, 0, 0, 1, '2009-02-02 16:45:09'),
 (2, 'Kansainvälinen jalkapäivä', '<p>Paljon erilaisia tapahtumia jalkoihin liittyen. Kaikki jalkaintoilijat tervetuloa!</p>', '', '', '2009-04-12', NULL, '2009-02-02', '2010-10-12', 1, 1, 0, 0, 0, 1, '2009-02-02 16:46:29'),
 (3, 'Kenkien historiaa', '<p>Seminaari kenkien historiasta pidetään Säätytalolla Helsingissä 4.12.2009. Puhujina ovat muun muassa yhdistyksen puheenjohtaja Martti Pielonen ja hallituksen jäsen Pekka Korpi. Ilmoittautumiset sihteerille!</p>', '', '', '2009-12-04', NULL, '2009-02-02', '2010-12-04', 1, 1, 0, 0, 0, 1, '2009-02-02 16:47:59');
+
+-- Organizations
+
+DROP TABLE IF EXISTS `organizations`;
+CREATE TABLE `organizations` (
+  `id` smallint(6) unsigned NOT NULL auto_increment,
+  `name` tinytext collate utf8_swedish_ci NOT NULL,
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `name` (`name`(30))
+) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 -- --------------------------------------------------------
 
