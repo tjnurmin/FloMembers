@@ -336,7 +336,7 @@ CREATE TABLE `form_options` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
-INSERT INTO `form_options` (id, show_region_fields) VALUES (DEFAULT, 1);
+INSERT INTO `form_options` (show_region_fields) VALUES (1);
 
 
 -- 
@@ -458,6 +458,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
   `postage` decimal(4,2) unsigned default NULL,
   `paiddate` date default NULL,
   `paidsum` decimal(10,2) default NULL,
+  `entrydate` date default NULL,
   `date` timestamp NOT NULL default CURRENT_TIMESTAMP,
   `ourreference` tinytext collate utf8_swedish_ci,
   `yourreference` tinytext collate utf8_swedish_ci,
@@ -481,7 +482,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
 -- Dumping data for table `invoices`
 --
 
-INSERT INTO `invoices` VALUES (1, 0, 90, 0, 0, 0, 0, 0, 1, '200900000010', '2009-03-05', NULL, NULL, NULL, '2009-02-19 19:09:59', NULL, NULL, NULL, NULL, NULL, 0, 1, 20.00, 1, 1);
+INSERT INTO `invoices` VALUES (1, 0, 90, 0, 0, 0, 0, 0, 1, '200900000010', '2009-03-05', NULL, NULL, NULL, NULL, '2012-02-19 19:09:59', NULL, NULL, NULL, NULL, NULL, 0, 1, 20.00, 1, 1);
 
 -- --------------------------------------------------------
 
