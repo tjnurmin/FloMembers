@@ -425,6 +425,7 @@ CREATE TABLE IF NOT EXISTS `invoicerows` (
   `price` decimal(10,2) default '0.00',
   `vat` tinyint(3) unsigned NOT NULL default '0',
   `link_subscriber` smallint(6) unsigned default NULL,
+  `extrainfo` text collate utf8_swedish_ci,
   PRIMARY KEY  (`id`),
   KEY `link_invoice` (`link_invoice`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
@@ -433,7 +434,7 @@ CREATE TABLE IF NOT EXISTS `invoicerows` (
 -- Dumping data for table `invoicerows`
 --
 
-INSERT INTO `invoicerows` VALUES (1, 1, 'Jäsenmaksu', 20.00, 0, NULL);
+INSERT INTO `invoicerows` VALUES (1, 1, 'Jäsenmaksu', 20.00, 0, NULL, NULL);
 
 
 -- --------------------------------------------------------
