@@ -81,7 +81,6 @@ foreach ($config['arrayOfLangs'] as $lang)
     $GLOBALS['_REMEMBER_LOGIN'][$lang] = _('Remember me<br />(admin users only)');
     $GLOBALS['_DEMO_PASSWORD_CANNOT_BE_CHANGED'][$lang] = _("The demo password cannot be changed.");
 	$GLOBALS['_EMAIL'][$lang] = _("<br />(Members: Email address)");
-	$GLOBALS['_EMAIL_SECURITY_IS_WEAK'][$lang] = _("Please note that e-mail security is weak. You can also request a new password by SMS by leaving a support request.");
 	$GLOBALS['_EMAIL_SIGNATURE'][$lang] = _("\n\n--\nService provided by www.floapps.com");
 	$GLOBALS['_GIVE_USER_ID_OR_EMAIL_ADDRESS'][$lang] = _("User ID<br />(individual members: email address)");
 	$GLOBALS['_LOGGED_IN_AS_DEMO'][$lang] = _('Changes made to demo data are cleared once a day.')." "
