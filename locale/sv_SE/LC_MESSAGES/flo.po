@@ -983,9 +983,8 @@ msgid "Statistics"
 msgstr "Statistik"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/admin_nav.inc.php:44
-#, fuzzy
 msgid "Mentoring"
-msgstr "Mentorrapporter"
+msgstr "Mentorskap"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/admin_nav.inc.php:50
 #: /Applications/MAMP/htdocs/shared_code/core_members/admin_nav.inc.php:64
@@ -3806,9 +3805,8 @@ msgid "You can choose more groups for the member after saving"
 msgstr "Du kan välja ytterligare grupper för medlemmen efter att du sparat"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:709
-#, fuzzy
 msgid "Choose suborganization"
-msgstr "Visa för underorganisationer?"
+msgstr "Välj underorganisation"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:778
 msgid "If you want to add a person into a group in a certain role"
@@ -3953,9 +3951,8 @@ msgstr ""
 "medlemmar. Kontakta din tjänsteleverantör om du vill uppgradera ditt konto."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/membersPublic.inc.php:5
-#, fuzzy
 msgid "You don't have the rights to view this page"
-msgstr "Du har inte rättigheter att utföra denna åtgärd."
+msgstr "Du har inte rättigheter att se denna sida"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/membersPublic.inc.php:9
 msgid "Place your cursor here to show email address"
@@ -4243,7 +4240,7 @@ msgstr "Person"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/plugins/mentoringCases.php:390
 msgid "Last viewed mentoring case"
-msgstr ""
+msgstr "Senast visat mentorskapscase"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/plugins/mentoringCases.php:404
 msgid "Not available"
