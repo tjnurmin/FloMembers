@@ -338,6 +338,16 @@ CREATE TABLE `form_options` (
 
 INSERT INTO `form_options` (show_region_fields) VALUES (1);
 
+-- 
+-- Table structure for table `group_categories`
+-- 
+
+DROP TABLE IF EXISTS `group_categories`;
+CREATE TABLE `group_categories` (
+  `id` smallint(6) NOT NULL AUTO_INCREMENT,
+  `name` tinytext COLLATE utf8_swedish_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 -- 
 -- Table structure for table `groups`
@@ -348,6 +358,7 @@ CREATE TABLE `groups` (
   `id` smallint(6) unsigned NOT NULL auto_increment,
   `name` tinytext collate utf8_swedish_ci NOT NULL,
   `groupFee` decimal(10,2) unsigned default NULL,
+  `link_category` smallint(6) default NULL,
   `hide_in_member_view` tinyint(1) default '0',
   `show_in_application_form` tinyint(1) unsigned NOT NULL default '0',
   `visible_to_views` tinyint(1) unsigned NOT NULL default '0',
@@ -359,8 +370,8 @@ CREATE TABLE `groups` (
 -- Dumping data for table `groups`
 -- 
 
-INSERT INTO `groups` VALUES (1, 'Yhdistyksen hallitus', NULL, 0, 0, 0);
-INSERT INTO `groups` VALUES (2, 'Sählyporukka', NULL, 0, 0, 0);
+INSERT INTO `groups` VALUES (1, 'Yhdistyksen hallitus', NULL, NULL, 0, 0, 0);
+INSERT INTO `groups` VALUES (2, 'Sählyporukka', NULL, NULL, 0, 0, 0);
 
 -- --------------------------------------------------------
 
