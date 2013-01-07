@@ -35,8 +35,8 @@ $GLOBALS['arrVatOptions'] = array(
     12  => 12,
     13  => 13,
     17  => 17,
-    22  => 22,
-    23  => 23
+    23  => 23,
+    24  => 24,
 );
 
 $GLOBALS['languages'] = array(

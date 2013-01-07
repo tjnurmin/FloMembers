@@ -139,7 +139,7 @@ CREATE TABLE `contact_history` (
 DROP TABLE IF EXISTS `custom_settings`;
 CREATE TABLE `custom_settings` (
   `id` smallint(5) unsigned NOT NULL auto_increment,
-  `type` enum('select','text') collate utf8_swedish_ci NOT NULL,
+  `type` enum('select','text','textarea') collate utf8_swedish_ci NOT NULL,
   `required` tinyint(1) NOT NULL default '0',
   `required_in_application` tinyint(1) NOT NULL default '0',
   `show_in_application_form` tinyint(1) NOT NULL default '0',
