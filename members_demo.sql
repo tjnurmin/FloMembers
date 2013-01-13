@@ -312,6 +312,8 @@ CREATE TABLE `extra_invoice_options` (
 DROP TABLE IF EXISTS `form_options`;
 CREATE TABLE `form_options` (
   `id` tinyint(3) unsigned NOT NULL auto_increment,
+  `show_phone_field` tinyint(1) unsigned NOT NULL default '1',
+  `show_mobile_field` tinyint(1) unsigned NOT NULL default '1',
   `show_appellation_field` tinyint(1) unsigned NOT NULL default '1',
   `show_born_field` tinyint(1) unsigned NOT NULL default '1',
   `show_info_type_field` tinyint(1) unsigned NOT NULL default '1',
@@ -330,6 +332,7 @@ CREATE TABLE `form_options` (
   `is_employer_field_mandatory` tinyint(1) unsigned NOT NULL default '0',
   `is_sex_field_mandatory` tinyint(1) unsigned NOT NULL default '0',
   `is_phone_field_mandatory` tinyint(1) unsigned NOT NULL default '0',
+  `is_mobile_field_mandatory` tinyint(1) unsigned NOT NULL default '0',
   `payment_schedule` tinyint(1) unsigned NOT NULL default '2',
   `link_account` tinyint(3) unsigned default NULL,
   `require_dob_in_date_format` tinyint(1) unsigned NOT NULL default '0',
