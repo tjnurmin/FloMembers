@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Flo 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-13 17:52+0200\n"
+"POT-Creation-Date: 2013-01-16 15:34+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tapio Nurminen <tapio.nurminen@floapps.com>\n"
 "Language-Team: Flo Apps Ltd <info@floapps.fi>\n"
@@ -80,7 +80,7 @@ msgstr "Fel"
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/clients.php:99
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/contactpersons.php:48
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/employees.php:28
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:944
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:946
 #: /Applications/MAMP/htdocs/shared_code/modules/users.php:162
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/eglsf.php:157
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:405
@@ -198,67 +198,67 @@ msgstr "Felaktig e-postadress ("
 msgid "please try again."
 msgstr "försök på nytt."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1386
+#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1403
 msgid "Monday"
 msgstr "måndag"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1388
+#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1405
 msgid "Tuesday"
 msgstr "tisdag"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1390
+#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1407
 msgid "Wednesday"
 msgstr "onsdag"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1392
+#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1409
 msgid "Thursday"
 msgstr "torsdag"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1394
+#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1411
 msgid "Friday"
 msgstr "fredag"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1396
+#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1413
 msgid "Saturday"
 msgstr "lördag"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1398
+#: /Applications/MAMP/htdocs/shared_code/classes/Accessories.class.php:1415
 msgid "Sunday"
 msgstr "söndag"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:109
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:106
 msgid "Message was sent to the following addresses:"
 msgstr "Meddelandet har skickats till följande adresser:"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:110
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:107
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:234
 msgid "Message sent"
 msgstr "Meddelandet har skickats"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:117
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:114
 msgid "Message could not be sent to the following addresses"
 msgstr "Meddelandet kunde inte skickas till följande adresser:"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:145
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:209
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:282
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:522
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:142
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:206
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:279
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:519
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:161
 msgid "Message was not sent"
 msgstr "Meddelandet har inte skickats"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:145
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:142
 msgid "Messages are not sent in demo version."
 msgstr "I demoversionen kan meddelanden inte skickas."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:209
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:282
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:206
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:279
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/email.php:335
 msgid "No recipients"
 msgstr "Inga mottagare"
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:310
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:351
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:307
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:348
 msgid ""
 "Warning: since your email program does not support HTML-formatted emails, "
 "this message's formatting has been removed."
@@ -266,8 +266,8 @@ msgstr ""
 "Varning: eftersom ditt e-postprogram inte stöder meddelanden i HTML-format, "
 "har formateringen i detta meddelande lämnats bort."
 
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:324
-#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:365
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:321
+#: /Applications/MAMP/htdocs/shared_code/classes/Emailer.class.php:362
 #: /Applications/MAMP/htdocs/shared_code/locale/multiLanguageKeys.php:82
 msgid ""
 "\n"
@@ -301,7 +301,7 @@ msgid "Upload to server"
 msgstr "Överför till servern"
 
 #: /Applications/MAMP/htdocs/shared_code/classes/FileHandler.class.php:40
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:169
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:171
 #: /Applications/MAMP/htdocs/shared_code/modules/users.php:34
 msgid "Procedure not allowed in demo version"
 msgstr "I demoversionen är denna procedur inte tillåten."
@@ -355,7 +355,7 @@ msgstr "Bild"
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/paid.php:94
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/unpaid.php:44
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:351
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:911
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:910
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/bankdataNoMatch.inc.php:19
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/groupContacts.inc.php:10
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/groupMembers.inc.php:20
@@ -390,7 +390,7 @@ msgstr "Bild"
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/projects.php:49
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/projects.php:106
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/search.php:78
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:943
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:945
 #: /Applications/MAMP/htdocs/shared_code/modules/users.php:152
 #: /Applications/MAMP/htdocs/shared_code/modules/users.php:184
 #: /Applications/MAMP/htdocs/tietokannat.info/keskusarkisto/contents/admin/ArchiveFormer.php:36
@@ -411,7 +411,7 @@ msgid "Type"
 msgstr "Typ"
 
 #: /Applications/MAMP/htdocs/shared_code/classes/FileHandler.class.php:75
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:195
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:197
 msgid "Size"
 msgstr "Storlek"
 
@@ -436,8 +436,8 @@ msgstr "Storlek"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1329
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1359
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1388
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:196
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:197
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:198
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:199
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/subscribers.php:102
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/subscribers.php:343
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/subscribertypes.php:42
@@ -699,7 +699,7 @@ msgstr "Åtgärden har utförts"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/resignRequests.php:28
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/paid.php:95
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/unpaid.php:45
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:669
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:674
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/bankdataNoMatch.inc.php:22
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/siNewsInsert.inc.php:82
 #: /Applications/MAMP/htdocs/shared_code/core_members/plugins/siNews.php:119
@@ -863,11 +863,11 @@ msgstr "Moms"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/search.php:1383
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/searchWithSqlNotInUse.php:294
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/subscribers.php:339
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:925
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:924
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:1394
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/clients.php:280
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/search.php:79
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:948
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:950
 msgid "Post address"
 msgstr "Postadress"
 
@@ -1145,7 +1145,7 @@ msgstr "Roller"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/contacts.php:130
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/payers.php:100
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/subscribers.php:139
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:530
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:535
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:453
 msgid "Invoices"
 msgstr "Fakturering"
@@ -1315,33 +1315,34 @@ msgstr ""
 "stora föreningar och klubbar också."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/config.inc.php:17
-#, fuzzy
 msgid "Order FloMembers"
-msgstr "Medlemmar"
+msgstr "Beställ FloMembers"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/config.inc.php:18
 msgid "Try out demo"
-msgstr ""
+msgstr "Kör demo"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/config.inc.php:19
 msgid "obligatory"
-msgstr ""
+msgstr "obligatorisk"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/config.inc.php:20
 msgid ""
 "FloMembers membership software is developed by Flo Apps Ltd in Helsinki, "
 "Finland."
 msgstr ""
+"FloMembers medlemsregister är en produkt utvecklad av Flo Apps Ltd, "
+"Helsingfors, Finland."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:502
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:837
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:355
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:395
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:454
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:912
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:911
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/clients.php:65
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:593
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:947
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:597
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:949
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/eglsf.php:124
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:412
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/sm2011.php:234
@@ -1351,8 +1352,8 @@ msgstr "Adress"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:503
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:72
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/views.php:84
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:920
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:594
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:919
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:598
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/eglsf.php:135
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:423
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/sm2011.php:245
@@ -1362,23 +1363,23 @@ msgstr "Postnummer"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:504
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:78
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/views.php:89
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:921
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:595
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:920
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:599
 msgid "Postoffice"
 msgstr "Postanstalt"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:505
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:596
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:600
 msgid "Enrollment year"
 msgstr "Inskrivningsår"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:506
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:597
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:601
 msgid "Graduated"
 msgstr "Examen"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:507
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:598
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:602
 msgid "Degree program"
 msgstr "Utbildningsprogram"
 
@@ -1391,8 +1392,8 @@ msgstr "Utbildningsprogram"
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:156
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:394
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/exports/xls.php:215
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:829
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1009
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:831
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1011
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:478
 msgid "Title"
 msgstr "Titel"
@@ -1400,8 +1401,8 @@ msgstr "Titel"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:725
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:900
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:283
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:830
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1010
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:832
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1012
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:469
 msgid "Employer"
 msgstr "Arbetsgivare"
@@ -1413,7 +1414,7 @@ msgstr "Arbetsgivare"
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/groupMembers.inc.php:21
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/thickboxes/product_rights.php:14
 #: /Applications/MAMP/htdocs/shared_code/core_royalties/thickboxes/rights.php:47
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:832
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:834
 msgid "Role"
 msgstr "Roll"
 
@@ -1423,7 +1424,7 @@ msgstr "Roll"
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:522
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/membersPublic.inc.php:64
 #: /Applications/MAMP/htdocs/shared_code/core_members/plugins/jjsmregistration.php:118
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:945
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:947
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:358
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/sm2011.php:263
 msgid "Mobile"
@@ -1451,7 +1452,7 @@ msgstr "Mobil"
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/clients.php:94
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/contactpersons.php:54
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/employees.php:34
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:946
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:948
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/eglsf.php:152
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:349
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/sm2011.php:269
@@ -1459,7 +1460,7 @@ msgid "Phone"
 msgstr "Telefon"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/_clientSummary.php:901
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1011
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1013
 msgid "Own specialty / interests"
 msgstr "Egen kunskaps- / intresseprofil"
 
@@ -1820,9 +1821,8 @@ msgstr "Kön"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/applications.php:176
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:350
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:713
-#, fuzzy
 msgid "Custom information"
-msgstr "Mera information"
+msgstr "Användarspecifik information"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/applications.php:213
 msgid ""
@@ -1872,7 +1872,7 @@ msgstr "Godkänn"
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/events.php:372
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:394
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:453
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:667
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:672
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:181
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/registration.inc.php:397
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/eglsf.php:94
@@ -1925,14 +1925,14 @@ msgstr "Totalt"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/applications.php:479
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/summary.php:178
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:675
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:680
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/eglsf.php:57
 msgid "Women"
 msgstr "Kvinnor"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/applications.php:480
 #: /Applications/MAMP/htdocs/shared_code/core_members/exports/summary.php:177
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:676
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:681
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/eglsf.php:57
 msgid "Men"
 msgstr "Män"
@@ -2719,14 +2719,12 @@ msgid "Require in date format?"
 msgstr "Krävs datumformat?"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/form_options.php:54
-#, fuzzy
 msgid "Show mobile field"
-msgstr "Visa fält för arbetsgivare"
+msgstr "Visa fält för mobiltelefon"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/form_options.php:64
-#, fuzzy
 msgid "Show phone field"
-msgstr "Visa fält för telefonnummer"
+msgstr "Visa fält för telefon"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/form_options.php:74
 msgid "Show sex dropdown"
@@ -3376,19 +3374,24 @@ msgstr "Itella-kundkod för adresser"
 msgid "Maventa ID"
 msgstr "Maventa-användarnamn"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:142
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:139
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:145
+msgid "36 characters, used for e-invoicing"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:143
 msgid "Maventa API key"
 msgstr "Maventa API-nyckel"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:160
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:162
 msgid "Upload logo on server"
 msgstr "Ladda upp logotyp på server"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:165
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:167
 msgid "Upload"
 msgstr "Ladda upp"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:176
+#: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/settings.php:178
 msgid ""
 "Choose picture file and upload it to the server. The picture’s file format "
 "must be .gif or .jpg. The new file will replace the old one automatically."
@@ -3409,9 +3412,8 @@ msgid "Administrator permissions for this sub-organization?"
 msgstr "Administratörrättigheter för denna underorganisation?"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/setView.php:132
-#, fuzzy
 msgid "Only limited permissions for this sub-organization?"
-msgstr "Administratörrättigheter för denna underorganisation?"
+msgstr "Endast begränsade rättigheter för denna underorganisation?"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/subscribers.php:99
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:1810
@@ -3732,42 +3734,42 @@ msgstr "Anmälda"
 msgid "In queue"
 msgstr "I kö"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:584
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:589
 msgid "Invoicerows"
 msgstr "Fakturarader"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:622
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:627
 msgid "Totals"
 msgstr "Totalt"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:668
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:673
 msgid "Member type name"
 msgstr "Namn för medlemstyp"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:898
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:897
 msgid "Addresses"
 msgstr "Adresser"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:909
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:908
 msgid "Member ID"
 msgstr "Medlemsnummer"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:915
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:914
 #: /Applications/MAMP/htdocs/shared_code/core_webapps/contents/admin/clients.php:70
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:417
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/sm2011.php:239
 msgid "Extra address"
 msgstr "Extra adress"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:930
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:929
 msgid "Last subscription"
 msgstr "Föregående prenumeration"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:947
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:946
 msgid "Foreign"
 msgstr "Utländska"
 
-#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:1028
+#: /Applications/MAMP/htdocs/shared_code/core_members/exports/xls.php:1027
 msgid "Subscription ended"
 msgstr "Prenumerationen slutade"
 
@@ -4319,15 +4321,15 @@ msgstr "Person"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/plugins/mentoringCases.php:415
 msgid "Assign handler"
-msgstr ""
+msgstr "Specificera handhavare"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/plugins/mentoringCases.php:421
 msgid "Handler"
-msgstr ""
+msgstr "Handhavare"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/plugins/mentoringCases.php:432
 msgid "Add mentor to handle assigning this case"
-msgstr ""
+msgstr "Lägg till mentor för att handha delegeringen av detta case"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/plugins/mentoringCases.php:485
 msgid "Last viewed mentoring case"
@@ -4646,19 +4648,19 @@ msgstr "Du har loggat in som"
 msgid "Log out"
 msgstr "Logga ut"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1575
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1577
 msgid "Administrator"
 msgstr "Administratör"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1576
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1578
 msgid "Suborganization (in multi-level organizations)"
 msgstr "Underorganisation (i organisation som har flera organisationsnivåer)"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1577
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1579
 msgid "Web site + events"
 msgstr "Webbplats + tillställningar"
 
-#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1578
+#: /Applications/MAMP/htdocs/shared_code/include/coreConfig.inc.php:1580
 msgid "Web site management only"
 msgstr "Endast för administration av webbplatsen"
 
@@ -5364,7 +5366,7 @@ msgstr "Påminnelse till personer utan e-postadress"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:2008
 msgid "Custom reference inset (max 4 digits)"
-msgstr "Kundanpassad initialsekvens på referensnummer (max 4 siffror)"
+msgstr "Användarspecifik initialsekvens på referensnummer (max 4 siffror)"
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:2062
 msgid ""
