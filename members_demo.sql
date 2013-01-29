@@ -1093,6 +1093,7 @@ CREATE TABLE `tblusers` (
   `maventa_uid` tinytext collate utf8_swedish_ci,
   `maventa_api` tinytext collate utf8_swedish_ci,
   `infotext` text collate utf8_swedish_ci,
+  `lettertext` text collate utf8_swedish_ci,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `email` (`email`),
   UNIQUE KEY `name` (`name`),
@@ -1104,7 +1105,7 @@ CREATE TABLE `tblusers` (
 -- Dumping data for table `tblusers`
 -- 
 
-INSERT INTO `tblusers` VALUES (1, 'Helsinki Example FC', 'demo', 'info@tietokannat.info', NULL, NULL, NULL, '---', 1, '2006-12-06 00:00:00', 1, 'Esimerkkitie 8', '00100', 'HELSINKI', NULL, NULL, 'Nordea 123456-7890', NULL, "http://yle.fi/uutiset/rss/kotimaa.rss", NULL, NULL, NULL, NULL);
+INSERT INTO `tblusers` VALUES (1, 'Helsinki Example FC', 'demo', 'info@tietokannat.info', NULL, NULL, NULL, '---', 1, '2006-12-06 00:00:00', 1, 'Esimerkkitie 8', '00100', 'HELSINKI', NULL, NULL, 'Nordea 123456-7890', NULL, "http://yle.fi/uutiset/rss/kotimaa.rss", NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
