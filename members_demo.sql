@@ -141,6 +141,7 @@ CREATE TABLE `custom_settings` (
   `id` smallint(5) unsigned NOT NULL auto_increment,
   `type` enum('select','text','textarea') collate utf8_swedish_ci NOT NULL,
   `required` tinyint(1) NOT NULL default '0',
+  `show_to_member` tinyint(1) unsigned NOT NULL default '2',
   `required_in_application` tinyint(1) NOT NULL default '0',
   `show_in_application_form` tinyint(1) NOT NULL default '0',
   PRIMARY KEY  (`id`)
@@ -1171,15 +1172,16 @@ INSERT INTO `views` VALUES (1, 'Keski-Suomen piiri', NULL, NULL, NULL, NULL, NUL
 
 DROP TABLE IF EXISTS `views_members`;
 CREATE TABLE `views_members` (
-  `link_view` mediumint(8) unsigned NOT NULL,
-  `link_member` mediumint(8) unsigned default NULL,
-  `link_application` mediumint(8) unsigned default NULL,
+  `link_view` mediumint(8) unsigned NOT NULL ,
+  `link_member` mediumint(8) unsigned NOT NULL default '0',
+  `link_application` mediumint(8) unsigned NOT NULL default '0',
   `admin` tinyint(1) unsigned NOT NULL default '0',
-  `readonly` tinyint(1) unsigned NOT NULL default '0'
+  `readonly` tinyint(1) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`link_view`,`link_member`,`link_application`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
 
-INSERT INTO `views_members` VALUES (1, 2, NULL, 0 ,0);
-INSERT INTO `views_members` VALUES (1, 7, NULL, 1, 0);
+INSERT INTO `views_members` VALUES (1, 2, 0, 0 ,0);
+INSERT INTO `views_members` VALUES (1, 7, 0, 1, 0);
 
 -- change collation
 
