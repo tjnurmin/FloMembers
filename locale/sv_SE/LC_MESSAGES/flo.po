@@ -3425,14 +3425,12 @@ msgstr ""
 "eller .jpg. Den nya filen ersätter den gamla automatiskt."
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/setView.php:29
-#, fuzzy
 msgid "Add to suborganization (several persons)"
-msgstr "Lägg till underorganisation"
+msgstr "Lägg till underorganisation (flera personer)"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/setView.php:70
-#, fuzzy
 msgid "Edit permissions (one person)"
-msgstr "Redigera personens roll i gruppen"
+msgstr "Redigera rättigheter (en person)"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/setView.php:129
 msgid "Administrator permissions for this sub-organization?"
@@ -3818,9 +3816,8 @@ msgid "Member not found"
 msgstr "Medlemmen hittades inte"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:190
-#, fuzzy
 msgid "E-invoice recipient"
-msgstr "En enda mottagare"
+msgstr "E-fakturans mottagare "
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:217
 msgid "50 &#37; pension discount on invoices?"
@@ -3933,9 +3930,8 @@ msgid "Make admin"
 msgstr "Gör till administratör"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:876
-#, fuzzy
 msgid "Edit permissions"
-msgstr "Redigera organisation"
+msgstr "Redigera rättigheter"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/include/members.inc.php:957
 msgid ""
@@ -5155,6 +5151,8 @@ msgid ""
 "These files are shown only to users who are logged-in. They cannot be "
 "accessed from outside FloMembers."
 msgstr ""
+"Dessa filer visas endast för inloggade användare. De kan inte åtkommas "
+"utanför FloMembers."
 
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:94
 #: /Applications/MAMP/htdocs/shared_code/modules/invoices.php:666
