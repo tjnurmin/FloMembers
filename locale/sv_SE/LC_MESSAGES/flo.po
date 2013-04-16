@@ -2652,18 +2652,16 @@ msgid "Order addresses by postcode?"
 msgstr "Ordna adresserna enligt postnummer?"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/exportToExcel.php:94
-#, fuzzy
 msgid "Foreign addresses on a separate sheet?"
-msgstr "Skriv ut utländska adresser på separat ark?"
+msgstr "Skriv utländska adresser på separat ark?"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/exportToExcel.php:100
-#, fuzzy
 msgid "Write extra address in a separate cell?"
-msgstr "Skriv ut utländska adresser på separat ark?"
+msgstr "Skriv extra adress i separat cell?"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/exportToExcel.php:106
 msgid "Separate post address and country?"
-msgstr ""
+msgstr "Skilj åt postadress och land?"
 
 #: /Applications/MAMP/htdocs/shared_code/core_members/contents/admin/exportToExcel.php:111
 msgid "Write member ID in file?"
@@ -5619,7 +5617,6 @@ msgstr ""
 "knappen för att undvika onödiga formateringskoder."
 
 #: /Applications/MAMP/htdocs/shared_code/modules/pageEditor.php:215
-#, fuzzy
 msgid ""
 "For best results, copy the text to Notepad first and then from Notepad to "
 "editor."
@@ -5632,6 +5629,8 @@ msgid ""
 "All files uploaded via this editor will be accessible online through a "
 "public URL. Do not upload confidential files with this editor."
 msgstr ""
+"Alla filer som laddas upp via denna editor kan kommas åt genom en publik "
+"URL. Ladda inte upp konfidentiella filer med denna editor. "
 
 #: /Applications/MAMP/htdocs/shared_code/modules/pageEditor.php:243
 msgid "Which section page belongs to? (Leave blank if main page.)"
@@ -5829,9 +5828,8 @@ msgid "Send"
 msgstr "Skicka"
 
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:858
-#, fuzzy
 msgid "Thank you for your application!"
-msgstr "Tack för din anmälan!"
+msgstr "Tack för din ansökan!"
 
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/index.php:894
 #: /Applications/MAMP/htdocs/tietokannat.info/forms/mentoring.php:105
