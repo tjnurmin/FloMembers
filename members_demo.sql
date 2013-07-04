@@ -1148,14 +1148,20 @@ DROP TABLE IF EXISTS `views`;
 CREATE TABLE `views` (
   `id` smallint(5) unsigned NOT NULL auto_increment,
   `name` tinytext collate utf8_swedish_ci NOT NULL,
+  `extraname` tinytext collate utf8_swedish_ci,
   `email` tinytext collate utf8_swedish_ci,
+  `extrainfo` text collate utf8_swedish_ci,
+  `email2` tinytext collate utf8_swedish_ci,
   `link_view` smallint(5) unsigned default NULL,
   `address` tinytext collate utf8_swedish_ci,
   `postcode` tinytext collate utf8_swedish_ci,
   `postoffice` tinytext collate utf8_swedish_ci,
   `phone` tinytext collate utf8_swedish_ci,
+  `mobile` tinytext collate utf8_swedish_ci,
   `url` tinytext collate utf8_swedish_ci,
+  `account` tinytext collate utf8_swedish_ci,
   `fee` decimal(10,2) unsigned default NULL,
+  `postings_count` smallint(5) unsigned default NULL,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `name` (`name`(30))
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
@@ -1164,7 +1170,7 @@ CREATE TABLE `views` (
 -- Dumping data for table `views`
 -- 
 
-INSERT INTO `views` VALUES (1, 'Keski-Suomen piiri', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `views` VALUES (1, 'Keski-Suomen piiri', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 
 --
