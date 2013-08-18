@@ -15,15 +15,16 @@ CREATE TABLE `accounts` (
   `account` tinytext collate utf8_swedish_ci NOT NULL,
   `iban` tinytext collate utf8_swedish_ci NOT NULL,
   `swift` tinytext collate utf8_swedish_ci NOT NULL,
+  `link_view` smallint(5) unsigned default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1 ;
 
 
 -- 
 -- Dumping data for table `accounts`
 -- 
 
-INSERT INTO `accounts` VALUES (1, 'Nordea', '123456-7890', 'FI09 1234 5600 1078 90', 'NDEAFIHH');
+INSERT INTO `accounts` VALUES (1, 'Nordea', '123456-7890', 'FI09 1234 5600 1078 90', 'NDEAFIHH', NULL);
 
 -- --------------------------------------------------------
 
@@ -486,6 +487,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
   `amount` decimal(10,2) NOT NULL default '0.00',
   `is_midyear` tinyint(3) unsigned NOT NULL default '0',
   `is_sent_by_email` tinyint(1) unsigned NOT NULL default '0',
+  `link_view` smallint(5) unsigned default NULL,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `refnr` (`refnr`),
   KEY `link_account` (`link_account`),
@@ -498,7 +500,7 @@ CREATE TABLE IF NOT EXISTS `invoices` (
 -- Dumping data for table `invoices`
 --
 
-INSERT INTO `invoices` VALUES (1, 0, 90, 0, 0, 0, 0, 0, 1, '200900000010', '2009-03-05', NULL, NULL, NULL, NULL, '2012-02-19 19:09:59', NULL, NULL, NULL, NULL, NULL, 0, 1, 20.00, 1, 1);
+INSERT INTO `invoices` VALUES (1, 0, 90, 0, 0, 0, 0, 0, 1, '200900000010', '2009-03-05', NULL, NULL, NULL, NULL, '2012-02-19 19:09:59', NULL, NULL, NULL, NULL, NULL, 0, 1, 20.00, 1, 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -1159,9 +1161,9 @@ CREATE TABLE `views` (
   `phone` tinytext collate utf8_swedish_ci,
   `mobile` tinytext collate utf8_swedish_ci,
   `url` tinytext collate utf8_swedish_ci,
-  `account` tinytext collate utf8_swedish_ci,
   `fee` decimal(10,2) unsigned default NULL,
   `postings_count` smallint(5) unsigned default NULL,
+  `show_in_application_form` tinyint(3) unsigned NOT NULL default '1',
   PRIMARY KEY  (`id`),
   UNIQUE KEY `name` (`name`(30))
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
@@ -1170,7 +1172,7 @@ CREATE TABLE `views` (
 -- Dumping data for table `views`
 -- 
 
-INSERT INTO `views` VALUES (1, 'Keski-Suomen piiri', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `views` VALUES (1, 'Keski-Suomen piiri', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1);
 
 
 --
