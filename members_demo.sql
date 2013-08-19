@@ -98,6 +98,9 @@ CREATE TABLE `contacts` (
   `country` tinytext collate utf8_swedish_ci,
   `extrainfo` text collate utf8_swedish_ci,
   `reference` tinytext collate utf8_swedish_ci,
+  `operator` tinytext collate utf8_swedish_ci,
+  `ovt` tinytext collate utf8_swedish_ci,
+  `link_payer` smallint(5) unsigned default NULL,
   `title` tinytext collate utf8_swedish_ci,
   `link_organization` smallint(6) unsigned default NULL,
   `residency` tinytext collate utf8_swedish_ci,
@@ -113,9 +116,9 @@ CREATE TABLE `contacts` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
-INSERT INTO `contacts` VALUES (1, 'Tuominen', 'Ville', NULL, NULL, 'Paraistentie 17', NULL, '00280', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2008-03-05 00:00:00');
-INSERT INTO `contacts` VALUES (2, 'Eerola', 'Keijo', NULL, NULL, 'Ida Aalbergin tie 2', NULL, '00400', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2009-02-05 00:00:00');
-INSERT INTO `contacts` VALUES (3, 'Keskinen', 'Keijo', 'eetu@testi.fi', NULL, 'Ida Aalbergin tie 5', NULL, '00400', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2009-02-05 00:00:00');
+INSERT INTO `contacts` VALUES (1, 'Tuominen', 'Ville', NULL, NULL, 'Paraistentie 17', NULL, '00280', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2008-03-05 00:00:00');
+INSERT INTO `contacts` VALUES (2, 'Eerola', 'Keijo', NULL, NULL, 'Ida Aalbergin tie 2', NULL, '00400', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2009-02-05 00:00:00');
+INSERT INTO `contacts` VALUES (3, 'Keskinen', 'Keijo', 'eetu@testi.fi', NULL, 'Ida Aalbergin tie 5', NULL, '00400', 'HELSINKI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'fin', 0, 0, '2009-02-05 00:00:00');
 
 -- Contact history
 
@@ -948,6 +951,7 @@ CREATE TABLE `tblpayers` (
   `country` tinytext collate utf8_swedish_ci,
   `is_corporation` tinyint(4) NOT NULL default '0',
   `is_foreign` tinyint(4) NOT NULL default '0',
+  `operator` tinytext collate utf8_swedish_ci,
   `ovt` tinytext collate utf8_swedish_ci,
   `extrainfo` text collate utf8_swedish_ci,
   `language` tinytext collate utf8_swedish_ci NOT NULL,
@@ -958,9 +962,9 @@ CREATE TABLE `tblpayers` (
 -- Dumping data for table `tblpayers`
 -- 
 
-INSERT INTO `tblpayers` VALUES (1, 'BTJ Prenumerationsservice', NULL, NULL, NULL, NULL, NULL, '22182 Lund', 'SVERIGE', NULL, NULL, 1, 1, NULL, NULL, 'sve');
-INSERT INTO `tblpayers` VALUES (2, 'EBSCO', NULL, NULL, NULL, 'P.O. Box 1943, Birmingham', NULL, 'AL 35201-1943', 'USA', NULL, NULL, 1, 1, NULL, NULL, 'eng');
-INSERT INTO `tblpayers` VALUES (3, 'SWETS Information Services BV', NULL, NULL, NULL, 'c/o Jagtvej 169B, 2.sal', NULL, '2100 Köpenhamn Ø', 'DANMARK', NULL, NULL, 1, 1, NULL, NULL, 'eng');
+INSERT INTO `tblpayers` VALUES (1, 'BTJ Prenumerationsservice', NULL, NULL, NULL, NULL, NULL, '22182 Lund', 'SVERIGE', NULL, NULL, 1, 1, NULL, NULL, NULL, 'sve');
+INSERT INTO `tblpayers` VALUES (2, 'EBSCO', NULL, NULL, NULL, 'P.O. Box 1943, Birmingham', NULL, 'AL 35201-1943', 'USA', NULL, NULL, 1, 1, NULL, NULL, NULL, 'eng');
+INSERT INTO `tblpayers` VALUES (3, 'SWETS Information Services BV', NULL, NULL, NULL, 'c/o Jagtvej 169B, 2.sal', NULL, '2100 Köpenhamn Ø', 'DANMARK', NULL, NULL, 1, 1, NULL, NULL, NULL, 'eng');
 
 -- --------------------------------------------------------
 
