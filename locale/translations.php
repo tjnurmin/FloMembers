@@ -30,12 +30,8 @@ $GLOBALS['contactMethods'] = array(
 
 $GLOBALS['arrVatOptions'] = array(
     0   => 0,
-    8   => 8,
-    9   => 9,
-    12  => 12,
-    13  => 13,
-    17  => 17,
-    23  => 23,
+    10  => 10,
+    14  => 14,
     24  => 24,
 );
 
