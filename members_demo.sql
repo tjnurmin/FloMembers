@@ -1165,6 +1165,7 @@ CREATE TABLE `views` (
   `phone` tinytext collate utf8_swedish_ci,
   `mobile` tinytext collate utf8_swedish_ci,
   `url` tinytext collate utf8_swedish_ci,
+  `businessid` tinytext collate utf8_swedish_ci,
   `fee` decimal(10,2) unsigned default NULL,
   `postings_count` smallint(5) unsigned default NULL,
   `show_in_application_form` tinyint(3) unsigned NOT NULL default '1',
@@ -1176,7 +1177,7 @@ CREATE TABLE `views` (
 -- Dumping data for table `views`
 -- 
 
-INSERT INTO `views` VALUES (1, 'Keski-Suomen piiri', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1);
+INSERT INTO `views` VALUES (1, 'Keski-Suomen piiri', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1);
 
 
 --
