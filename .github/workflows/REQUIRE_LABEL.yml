@@ -1,0 +1,16 @@
+name: Require label on new issues
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  check-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for labels
+        run: |
+          if [ "${{ toJson(github.event.issue.labels) }}" = "[]" ]; then
+            echo "Issue has no labels"
+            exit 1
+          fi
